@@ -15,3 +15,11 @@
 ```
 Gazebo opens with the first iteration of the maze and a kobuki robot ready to test the maze.
 ![maze](resources/maze.png)
+
+## Pending tasks
+
+- [ ] Complete and test the maze.
+- [ ] Create a robot model with a pink/green/blue cilinder in top.
+- [ ] Create the fight zone.
+- [ ] Create the hide-and-seek game zone.
+- [ ] Launch and teleop 2 robots with different namespaces.
