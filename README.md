@@ -13,7 +13,7 @@
 ```console
   roslaunch robots sim_gui.launch
 ```
-Gazebo opens with the first iteration of the maze and a kobuki robot ready to test the maze.
+Gazebo opens with a preliminary maze and a kobuki robot ready to test the maze.
 ![maze](resources/maze.png)
 
 ## Pending tasks
