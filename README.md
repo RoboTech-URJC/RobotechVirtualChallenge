@@ -2,7 +2,7 @@
 
 ## Launching the Robotech virtual challenge world
 
-### Clone the repo in your workspace
+### Clone the repo in your workspace and build it.
 
 ### Configuring your system
 ```console
