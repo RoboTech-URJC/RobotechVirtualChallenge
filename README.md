@@ -3,6 +3,10 @@
 ## Launching the Robotech virtual challenge world
 
 ### Clone the repo in your workspace and build it.
+```console
+git clone https://github.com/RoboTech-URJC/RobotechVirtualChallenge.git
+```
+
 
 ### Configuring your system
 ```console
@@ -13,8 +17,20 @@
 ```console
   roslaunch robots sim_gui.launch
 ```
+
 Gazebo opens with a preliminary maze and a kobuki robot ready to test the maze.
-![maze](resources/maze.png)
+![maze](resources/among_map.png)
+
+
+### Navigate manually and try the arena
+```console
+  roslaunch kobuki_keyop keyop.launch
+```
+
+### Launch rviz to take things under control
+```console
+  rosrun rviz rviz
+```
 
 ## Pending tasks
 
