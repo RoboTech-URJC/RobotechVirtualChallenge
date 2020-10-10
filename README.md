@@ -19,7 +19,7 @@ git clone https://github.com/RoboTech-URJC/RobotechVirtualChallenge.git
 ```
 
 Gazebo opens with a preliminary maze and a kobuki robot ready to test the maze.
-![maze](resources/among_map.png)
+![maze](resources/maze_2.png)
 
 
 ### Navigate manually and try the arena
