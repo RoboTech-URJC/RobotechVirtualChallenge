@@ -1,0 +1,14 @@
+material suMo/Diffuse
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture sumo_carpet_2.png
+			}
+		}
+	}
+}
