@@ -8810,42 +8810,6 @@
           <pose frame=''>0 0 0.0102 0 -0 0</pose>
         </sensor>
         <velocity_decay/>
-        <sensor name='camera' type='depth'>
-          <always_on>1</always_on>
-          <update_rate>20</update_rate>
-          <camera name='__default__'>
-            <horizontal_fov>1.0472</horizontal_fov>
-            <image>
-              <format>B8G8R8</format>
-              <width>640</width>
-              <height>480</height>
-            </image>
-            <clip>
-              <near>0.05</near>
-              <far>8</far>
-            </clip>
-          </camera>
-          <plugin name='kinect_camera_controller' filename='libgazebo_ros_openni_kinect.so'>
-            <cameraName>camera</cameraName>
-            <alwaysOn>1</alwaysOn>
-            <updateRate>10</updateRate>
-            <imageTopicName>rgb/image_raw</imageTopicName>
-            <depthImageTopicName>depth/image_raw</depthImageTopicName>
-            <pointCloudTopicName>depth/points</pointCloudTopicName>
-            <cameraInfoTopicName>rgb/camera_info</cameraInfoTopicName>
-            <depthImageCameraInfoTopicName>depth/camera_info</depthImageCameraInfoTopicName>
-            <frameName>camera_depth_optical_frame</frameName>
-            <baseline>0.1</baseline>
-            <distortion_k1>0.0</distortion_k1>
-            <distortion_k2>0.0</distortion_k2>
-            <distortion_k3>0.0</distortion_k3>
-            <distortion_t1>0.0</distortion_t1>
-            <distortion_t2>0.0</distortion_t2>
-            <pointCloudCutoff>0.4</pointCloudCutoff>
-            <robotNamespace>/</robotNamespace>
-          </plugin>
-          <pose frame=''>-0.087 -0.0015 0.2972 0 -0 0</pose>
-        </sensor>
         <velocity_decay/>
         <velocity_decay/>
         <velocity_decay/>
@@ -8992,40 +8956,6 @@
         </sensor>
         <gravity>1</gravity>
         <velocity_decay/>
-        <sensor name='laser0' type='ray'>
-          <always_on>1</always_on>
-          <update_rate>40</update_rate>
-          <visualize>0</visualize>
-          <ray>
-            <scan>
-              <horizontal>
-                <samples>1081</samples>
-                <resolution>1</resolution>
-                <min_angle>2.35619</min_angle>
-                <max_angle>-2.35619</max_angle>
-              </horizontal>
-              <vertical>
-                <samples>1</samples>
-                <min_angle>0</min_angle>
-                <max_angle>0</max_angle>
-              </vertical>
-            </scan>
-            <range>
-              <min>0.08</min>
-              <max>30</max>
-              <resolution>0.01</resolution>
-            </range>
-          </ray>
-          <plugin name='gazebo_ros_laser0_controller' filename='libgazebo_ros_laser.so'>
-            <gaussianNoise>0.005</gaussianNoise>
-            <alwaysOn>1</alwaysOn>
-            <updateRate>40</updateRate>
-            <topicName>scan</topicName>
-            <frameName>base_laser_link</frameName>
-            <robotNamespace>/</robotNamespace>
-          </plugin>
-          <pose frame=''>0 0 0.4402 0 -0 0</pose>
-        </sensor>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>

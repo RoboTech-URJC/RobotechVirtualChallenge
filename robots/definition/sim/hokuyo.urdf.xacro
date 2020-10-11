@@ -3,6 +3,7 @@
 
   <xacro:property name="M_PI" value="3.1415926535897931" />
 
+  <link name="base_link" />
 
   <xacro:macro name="hokuyo" params="name parent *origin ros_topic update_rate ray_count min_angle max_angle">
     <joint name="laser" type="fixed">

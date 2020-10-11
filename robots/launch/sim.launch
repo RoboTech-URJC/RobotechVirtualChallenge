@@ -1,27 +1,80 @@
 
 <launch>
+  <arg name="world_name" default="$(find robots)/worlds/robotech_virtual_challenge_2.world"/>
+  <!--<arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/>-->
+  <arg name="model" default="waffle" />
+  <arg name="blue_x_pos" default="0.205"/>
+  <arg name="blue_y_pos" default="7.0"/>
+  <arg name="blue_z_pos" default="0.008997"/>
+  <arg name="blue_posYaw" default="-1.57"/>
 
-  <arg name="world_name" default="(find robots)/worlds/robotech_virtual_challenge_2.world"/>
-  <arg name="posx" value="0.0"/>
-  <arg name="posy" value="0.0"/>
-  <arg name="posYaw" value="3.1415"/>
+  <arg name="red_x_pos" default="2.205"/>
+  <arg name="red_y_pos" default="7.0"/>
+  <arg name="red_z_pos" default="0.008997"/>
+  <arg name="red_posYaw" default="-1.57"/>
+
+  <arg name="first_tb3"  default="blue"/>
+  <arg name="second_tb3" default="red"/>
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="use_sim_time" value="true"/>
     <arg name="debug" value="false"/>
     <arg name="world_name" value="$(arg world_name)"/>
     <arg name="gui" value="false"/>
+    <arg name="headless" value="false"/>
+    <arg name="paused" value="false"/>
   </include>
 
-  <include file="$(find robots)/launch/includes/robot.launch.xml">
-    <arg name="posx" value="$(arg posx)"/>
-    <arg name="posy" value="$(arg posy)"/>
-    <arg name="posYaw" value="$(arg posYaw)"/>
-  </include>
+  <!-- First Robot -->
 
+  <group ns = "$(arg first_tb3)">
+    <param name="robot_description" command="$(find xacro)/xacro --inorder $(find turtlebot3_description)/urdf/turtlebot3_$(arg model).urdf.xacro" />
 
+    <include file="$(find turtlebot3_bringup)/launch/turtlebot3_remote.launch">
+      <arg name="model" value="$(arg model)"/>
+      <arg name="multi_robot_name" value="$(arg first_tb3)" />
+    </include>
+
+    <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model $(arg first_tb3)_$(arg model) -x $(arg blue_x_pos) -y $(arg blue_y_pos) -z $(arg blue_z_pos) -Y $(arg blue_posYaw) -param robot_description" />
+    
+    <node pkg="tf" type="static_transform_publisher" name="bf2base_link"
+      args="0.0 0.0 0.01 0.0 0.0 0.0 1.0 blue/base_footprint blue/base_link 100" />
+
+    <node pkg="tf" type="static_transform_publisher" name="base_link2laser"
+      args="-0.064 0.0 0.122 0.0 0.0 0.0 1.0 blue/base_link blue/base_scan 100" />
+
+    <node pkg="tf" type="static_transform_publisher" name="base_link2camera"
+      args="0.064 -0.065 0.094 0.0 0.0 0.0 1.0 blue/base_link blue/camera_link 100" />
+    
+  </group>
+
+  <!-- Second Robot -->
+
+  <group ns = "$(arg second_tb3)">
+    <param name="robot_description" command="$(find xacro)/xacro --inorder $(find turtlebot3_description)/urdf/turtlebot3_$(arg model).urdf.xacro" />
+
+    <include file="$(find turtlebot3_bringup)/launch/turtlebot3_remote.launch">
+      <arg name="model" value="$(arg model)"/>
+      <arg name="multi_robot_name" value="$(arg second_tb3)" />
+    </include>
+
+    <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model $(arg second_tb3)_$(arg model) -x $(arg red_x_pos) -y $(arg red_y_pos) -z $(arg red_z_pos) -Y $(arg red_posYaw) -param robot_description" />
+
+    <node pkg="tf" type="static_transform_publisher" name="bf2base_link"
+      args="0.0 0.0 0.01 0.0 0.0 0.0 1.0 red/base_footprint red/base_link 100" />
+
+    <node pkg="tf" type="static_transform_publisher" name="base_link2laser"
+      args="-0.064 0.0 0.122 0.0 0.0 0.0 1.0 red/base_link red/base_scan 100" />
+
+    <node pkg="tf" type="static_transform_publisher" name="base_link2camera"
+      args="0.064 -0.065 0.094 0.0 0.0 0.0 1.0 red/base_link red/camera_link 100" />
+
+  </group>
+
+  <!--
   <node pkg="laser_filters" type="scan_to_scan_filter_chain" name="laser_filter">
     <rosparam command="load" file="$(find robots)/definition/sim/my_laser_config.yaml" />
   </node>
+  -->
 
 </launch>
