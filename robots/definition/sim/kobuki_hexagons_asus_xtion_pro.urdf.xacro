@@ -6,7 +6,7 @@
 -->
 <robot name="turtlebot" xmlns:xacro="http://ros.org/wiki/xacro">
 
-	<xacro:include filename="$(find robots)/definition/sim/urdf/common_properties.urdf.xacro"/>
+  <xacro:include filename="$(find robots)/definition/sim/urdf/common_properties.urdf.xacro"/>
   <xacro:include filename="$(find robots)/definition/sim/urdf/turtlebot_properties.urdf.xacro"/>
   <!-- Bases -->
   <xacro:include filename="$(find robots)/definition/sim/urdf/create.urdf.xacro"/>
@@ -25,7 +25,7 @@
   <sensor_asus_xtion_pro          parent="base_link"/>
 <!--  <sensor_hokuyo 		              parent="base_link" name="laser0" ros_topic="scan" update_rate="40" ray_count="1081" min_angle="135" max_angle="-135" />-->
 
-  <include filename="$(find robots)/definition/sim/hokuyo.urdf.xacro" />
+  <xacro:include filename="$(find robots)/definition/sim/hokuyo.urdf.xacro" />
   <xacro:hokuyo name="laser0" parent="base_link" ros_topic="scan" update_rate="40" ray_count="1081" min_angle="135" max_angle="-135">
       <origin xyz="0.0 0.0 0.08" rpy="${M_PI} 0 0"/>
   </xacro:hokuyo>

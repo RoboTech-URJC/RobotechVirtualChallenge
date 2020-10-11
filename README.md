@@ -4,7 +4,7 @@
 
 ### Clone the repo in your workspace and build it.
 ```console
-git clone https://github.com/RoboTech-URJC/RobotechVirtualChallenge.git
+git clone --recursive [-b noetic] https://github.com/RoboTech-URJC/RobotechVirtualChallenge.git
 ```
 
 
@@ -18,14 +18,20 @@ git clone https://github.com/RoboTech-URJC/RobotechVirtualChallenge.git
   roslaunch robots sim_gui.launch
 ```
 
-Gazebo opens with a preliminary maze and a kobuki robot ready to test the maze.
-![maze](resources/maze_2.png)
+* **NOTE:** Set environment variable *TURTLEBOT3_MODEL*. For ejample: ``export TURTLEBOT3_MODEL=burger``. Doesn't matter what type of tb3
+you set becasue this value is overwriten from launcher file.
+
+Gazebo opens with a preliminary maze and a Turtlebot3 robot ready to test the maze.
+
+![maze](resources/simulator_noetic.png)
 
 
 ### Navigate manually and try the arena
 ```console
-  roslaunch kobuki_keyop keyop.launch
+  roslaunch roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
+
+> Change cmd_vel topic by ns/cmd_vel in each case
 
 ### Launch rviz to take things under control
 ```console
@@ -38,4 +44,4 @@ Gazebo opens with a preliminary maze and a kobuki robot ready to test the maze.
 - [ ] Create a robot model with a pink/green/blue cilinder in top.
 - [ ] Create the fight zone.
 - [ ] Create the hide-and-seek game zone.
-- [ ] Launch and teleop 2 robots with different namespaces.
+- [*] Launch and teleop 2 robots with different namespaces.
