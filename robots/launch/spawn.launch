@@ -1,0 +1,69 @@
+<launch>
+
+    <arg name="model" default="waffle" />
+    <arg name="blue_x_pos" default="0.205"/>
+    <arg name="blue_y_pos" default="7.0"/>
+    <arg name="blue_z_pos" default="0.008997"/>
+    <arg name="blue_posYaw" default="-1.57"/>
+
+    <arg name="red_x_pos" default="2.205"/>
+    <arg name="red_y_pos" default="7.0"/>
+    <arg name="red_z_pos" default="0.008997"/>
+    <arg name="red_posYaw" default="-1.57"/>
+
+    <arg name="first_tb3"  default="blue"/>
+    <arg name="second_tb3" default="red"/>
+
+  <!-- First Robot -->
+
+  <group ns = "$(arg first_tb3)">
+    <param name="robot_description" command="$(find xacro)/xacro --inorder $(find turtlebot3_description)/urdf/turtlebot3_$(arg model).urdf.xacro" />
+
+    <include file="$(find turtlebot3_bringup)/launch/turtlebot3_remote.launch">
+      <arg name="model" value="$(arg model)"/>
+      <arg name="multi_robot_name" value="$(arg first_tb3)" />
+    </include>
+
+    <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model $(arg first_tb3)_$(arg model) -x $(arg blue_x_pos) -y $(arg blue_y_pos) -z $(arg blue_z_pos) -Y $(arg blue_posYaw) -param robot_description" />
+
+    <node pkg="tf" type="static_transform_publisher" name="bf2base_link"
+      args="0.0 0.0 0.01 0.0 0.0 0.0 1.0 blue/base_footprint blue/base_link 100" />
+
+    <node pkg="tf" type="static_transform_publisher" name="base_link2laser"
+      args="-0.064 0.0 0.122 0.0 0.0 0.0 1.0 blue/base_link blue/base_scan 100" />
+
+    <node pkg="tf" type="static_transform_publisher" name="base_link2camera"
+      args="0.064 -0.065 0.094 0.0 0.0 0.0 1.0 blue/base_link blue/camera_link 100" />
+
+    <node pkg="tf" type="static_transform_publisher" name="camera_link2rgb_optical_frame"
+      args="0.0 0.0 0.0 -0.49999984146591747 0.49960183664463353 -0.49999984146591747 0.5003981633553666 blue/camera_link blue/camera_rgb_optical_frame 100" />
+
+  </group>
+
+  <!-- Second Robot -->
+
+  <group ns = "$(arg second_tb3)">
+    <param name="robot_description" command="$(find xacro)/xacro --inorder $(find turtlebot3_description)/urdf/turtlebot3_$(arg model).urdf.xacro" />
+
+    <include file="$(find turtlebot3_bringup)/launch/turtlebot3_remote.launch">
+      <arg name="model" value="$(arg model)"/>
+      <arg name="multi_robot_name" value="$(arg second_tb3)" />
+    </include>
+
+    <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model $(arg second_tb3)_$(arg model) -x $(arg red_x_pos) -y $(arg red_y_pos) -z $(arg red_z_pos) -Y $(arg red_posYaw) -param robot_description" />
+
+    <node pkg="tf" type="static_transform_publisher" name="bf2base_link"
+      args="0.0 0.0 0.01 0.0 0.0 0.0 1.0 red/base_footprint red/base_link 100" />
+
+    <node pkg="tf" type="static_transform_publisher" name="base_link2laser"
+      args="-0.064 0.0 0.122 0.0 0.0 0.0 1.0 red/base_link red/base_scan 100" />
+
+    <node pkg="tf" type="static_transform_publisher" name="base_link2camera"
+      args="0.064 -0.065 0.094 0.0 0.0 0.0 1.0 red/base_link red/camera_link 100" />
+
+    <node pkg="tf" type="static_transform_publisher" name="camera_link2rgb_optical_frame"
+      args="0.0 0.0 0.0 -0.49999984146591747 0.49960183664463353 -0.49999984146591747 0.5003981633553666 red/camera_link red/camera_rgb_optical_frame 100" />
+
+  </group>
+
+</launch>
