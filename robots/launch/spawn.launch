@@ -25,7 +25,7 @@
     </include>
 
     <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model $(arg first_tb3)_$(arg model) -x $(arg blue_x_pos) -y $(arg blue_y_pos) -z $(arg blue_z_pos) -Y $(arg blue_posYaw) -param robot_description" />
-    
+
     <node pkg="tf" type="static_transform_publisher" name="bf2base_link"
       args="0.0 0.0 0.01 0.0 0.0 0.0 1.0 blue/base_footprint blue/base_link 100" />
 
@@ -34,7 +34,10 @@
 
     <node pkg="tf" type="static_transform_publisher" name="base_link2camera"
       args="0.064 -0.065 0.094 0.0 0.0 0.0 1.0 blue/base_link blue/camera_link 100" />
-    
+
+    <node pkg="tf" type="static_transform_publisher" name="camera_link2rgb_optical_frame"
+      args="0.0 0.0 0.0 -0.49999984146591747 0.49960183664463353 -0.49999984146591747 0.5003981633553666 blue/camera_link blue/camera_rgb_optical_frame 100" />
+
   </group>
 
   <!-- Second Robot -->
@@ -57,6 +60,9 @@
 
     <node pkg="tf" type="static_transform_publisher" name="base_link2camera"
       args="0.064 -0.065 0.094 0.0 0.0 0.0 1.0 red/base_link red/camera_link 100" />
+
+    <node pkg="tf" type="static_transform_publisher" name="camera_link2rgb_optical_frame"
+      args="0.0 0.0 0.0 -0.49999984146591747 0.49960183664463353 -0.49999984146591747 0.5003981633553666 red/camera_link red/camera_rgb_optical_frame 100" />
 
   </group>
 
