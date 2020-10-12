@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="sumo_arena">
+    <pose>0 0 0.4 0 0 0</pose>
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://number1/meshes/sumo_arena.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://sumo_arena/materials/scripts</uri>
+            <uri>model://sumo_arena/materials/textures</uri>
+            <name>SuMo/Diffuse</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
+
+
+
+
+<!-- <?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='sumo_arena'>
+    <static>true</static>
+    <!-- <allow_auto_disable>1</allow_auto_disable> -->
+	<link name="sumo_link">
+		<visual name="sumo_mesh">
+			<material>
+				<script>
+					<url>model://sumo_arena/materials/scripts</url>
+					<url>model://sumo_arena/materials/textures</url>
+					<name>suMo/Diffuse</name>
+				</script>
+			</material>
+		</visual>
+	</link>
+  </model>
+</sdf> -->
