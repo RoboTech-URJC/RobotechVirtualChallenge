@@ -1,7 +1,7 @@
 
 <launch>
 
-  <arg name="world_name" default="$(find robots)/worlds/robotech_virtual_challenge.world"/>
+  <arg name="world_name" default=""/>
   <arg name="posx" value="0.0"/>
   <arg name="posy" value="0.0"/>
   <arg name="posYaw" value="3.1415"/>
