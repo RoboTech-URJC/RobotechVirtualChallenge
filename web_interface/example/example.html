@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Jonatan Gines">
+
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="http://static.robotwebtools.org/EventEmitter2/current/eventemitter2.min.js"></script>
+    <script type="text/javascript" src="http://static.robotwebtools.org/roslibjs/current/roslib.min.js"></script>
+  </head>
+
+  <body>
+    <div class="gui-container">
+      <h1>Controllers</h1>
+    </div>
+    <div>
+      <div class="info2show">
+        <p1>Purple vel (m/s):</p1>
+        <span id="purple_vel"></span>
+      </div>
+    </div>
+    <div class="gui-container">
+      <button type="button" onclick="match_event('start')" class="gui-item">Start</button>
+      <button type="button" onclick="match_event('stop')" class="gui-item">Stop</button>
+      <button type="button" onclick="match_event('resume')" class="gui-item">Resume</button>
+    </div>
+  </body>
+  <script>
+
+    var ip = '127.0.0.1'
+    var ros = new ROSLIB.Ros({
+      url : 'ws://'+String(ip)+':9090'
+    });
+
+    var matchEventTopic = new ROSLIB.Topic({
+      ros : ros,
+      name : '/robotech_vc_hub/football/event',
+      messageType : 'std_msgs/String'
+    });
+
+    var cmdVelListener = new ROSLIB.Topic({
+    ros : ros,
+    name : '/purple/cmd_vel',
+    messageType : 'geometry_msgs/Twist'
+  });
+
+  cmdVelListener.subscribe(function(message) {
+    var element = document.getElementById("purple_vel");
+    element.innerHTML = message.linear.x;
+  });
+    // ROS Service example
+    //var talkSrv = new ROSLIB.Service({
+    //  ros : ros,
+    //  name : '/pepper_basic_capabilities/talk',
+    //  serviceType : 'pepper_basic_capabilities_msgs/DoTalk'
+    //});
+
+    function match_event(str) {
+      var msg = new ROSLIB.Message({
+        data : str
+      });
+      matchEventTopic.publish(msg);
+    }
+
+    // ROS Service example
+    //function talk () {
+    //  var str = document.getElementById("sayText").value;
+    //  var talkRequest = new ROSLIB.ServiceRequest({
+    //    sentence : str
+    //  });
+    //  talkSrv.callService(talkRequest, function(result) {});
+    //}
+
+  </script>
+</html>
