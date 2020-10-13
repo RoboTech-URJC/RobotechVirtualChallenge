@@ -28,20 +28,22 @@ Gazebo opens with a preliminary maze and a Turtlebot3 robot ready to test the ma
 
 ### Navigate manually and try the arena
 ```console
-  roslaunch roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
-
 > Change cmd_vel topic by ns/cmd_vel in each case
 
-### Launch rviz to take things under control
+
+### Using the navigation-stack
 ```console
-  rosrun rviz rviz
+  roslaunch navigation purple_tb3_navigation.launch OR roslaunch navigation red_tb3_navigation.launch
 ```
+> The rviz is launched to take things under control
 
 ## Pending tasks
 
 - [ ] Complete and test the maze.
-- [ ] Create a robot model with a pink/green/blue cilinder in top.
-- [ ] Create the fight zone.
-- [ ] Create the hide-and-seek game zone.
-- [*] Launch and teleop 2 robots with different namespaces.
+- [x] Create a robot model with different colours.
+- [x] Create the fight zone.
+- [x] Create the hide-and-seek game zone.
+- [x] Launch and teleop 2 robots with different namespaces.
+- [x] Launch and navigate with 2 robots with different namespaces.
