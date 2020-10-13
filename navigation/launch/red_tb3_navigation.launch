@@ -12,8 +12,8 @@
     <include file="$(find navigation)/launch/navigation.launch">
       <arg name="tf_prefix" value="$(arg tf_prefix)"/>
       <arg name="initial_pose_x" value="-6.0" />
-			<arg name="initial_pose_y" value="-1.0" />
-			<arg name="initial_pose_a" value="1.57" />
+      <arg name="initial_pose_y" value="-1.0" />
+      <arg name="initial_pose_a" value="1.57" />
     </include>
   </group>
 

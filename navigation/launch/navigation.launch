@@ -7,15 +7,16 @@
   <arg name="initial_pose_x" default="0"/>
   <arg name="initial_pose_y" default="0"/>
   <arg name="initial_pose_a" default="0"/>
+
   <!-- AMCL -->
   <include file="$(find navigation)/launch/includes/amcl.launch">
     <arg name="tf_prefix" value="$(arg tf_prefix)"/>
-		<arg name="scan_topic" value="scan" />
-		<arg name="use_map_topic" value="true" />
-		<arg name="initial_pose_x" value="$(arg initial_pose_x)" />
-		<arg name="initial_pose_y" value="$(arg initial_pose_y)" />
-		<arg name="initial_pose_a" value="$(arg initial_pose_a)" />
-		<arg name="global_frame_id" value="/map"/>
+    <arg name="scan_topic" value="scan" />
+    <arg name="use_map_topic" value="true" />
+    <arg name="initial_pose_x" value="$(arg initial_pose_x)" />
+    <arg name="initial_pose_y" value="$(arg initial_pose_y)" />
+    <arg name="initial_pose_a" value="$(arg initial_pose_a)" />
+    <arg name="global_frame_id" value="/map"/>
   </include>
 
   <!-- move_base -->

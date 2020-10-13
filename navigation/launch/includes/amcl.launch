@@ -10,9 +10,9 @@
   <arg name="tf_prefix" default="tf_p"/>
 
   <node pkg="amcl" type="amcl" name="amcl">
-  	<param name="tf_broadcast" value="true"/>
+    <param name="tf_broadcast" value="true"/>
     <param name="use_map_topic" value="$(arg use_map_topic)"/>
-    <param name="tf_prefix"	value="$(arg tf_prefix)"/>
+    <param name="tf_prefix"  value="$(arg tf_prefix)"/>
     <!-- Publish scans from best pose at a max of 10 Hz -->
     <param name="odom_model_type"           value="diff"/>
     <param name="odom_alpha5"               value="0.1"/>
