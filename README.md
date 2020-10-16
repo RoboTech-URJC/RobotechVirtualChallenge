@@ -18,10 +18,10 @@ git clone --recursive [-b noetic] https://github.com/RoboTech-URJC/RobotechVirtu
   roslaunch robots sim_gui.launch
 ```
 
-* **NOTE:** Set environment variable *TURTLEBOT3_MODEL*. For ejample: ``export TURTLEBOT3_MODEL=burger``. Doesn't matter what type of tb3
-you set becasue this value is overwriten from launcher file.
+<!--* **NOTE:** Set environment variable *TURTLEBOT3_MODEL*. For ejample: ``export TURTLEBOT3_MODEL=burger``. Doesn't matter what type of tb3
+you set becasue this value is overwriten from launcher file.-->
 
-Gazebo opens with a preliminary maze and a Turtlebot3 robot ready to test the maze.
+Gazebo opens with a preliminary maze and 2 Turtlebot3 robots ready to test the maze.
 
 ![maze](resources/simulator_noetic.png)
 
@@ -37,7 +37,7 @@ Gazebo opens with a preliminary maze and a Turtlebot3 robot ready to test the ma
 ```console
   roslaunch navigation purple_tb3_navigation.launch OR roslaunch navigation red_tb3_navigation.launch
 ```
-> The rviz is launched to take things under control
+> The rviz is launched to take things under control.
 
 ## Pending tasks
 
