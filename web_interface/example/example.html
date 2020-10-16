@@ -25,6 +25,24 @@
       <button type="button" onclick="match_event('stop')" class="gui-item">Stop</button>
       <button type="button" onclick="match_event('resume')" class="gui-item">Resume</button>
     </div>
+
+    <div class="robots-imgs-container">
+
+      <div class="robot-img">
+        <canvas id="red-img" width="680" height="340"></canvas>
+      </div>
+
+      <div class="robot-img">
+        <canvas id="purple-img" width="680" height="340"></canvas>
+      </div>
+
+    </div>
+
+    <div class="sim-img">
+      <canvas id="sim-img"></canvas>
+
+    </div>
+
   </body>
   <script>
 
@@ -33,17 +51,37 @@
       url : 'ws://'+String(ip)+':9090'
     });
 
-    var matchEventTopic = new ROSLIB.Topic({
-      ros : ros,
-      name : '/robotech_vc_hub/football/event',
-      messageType : 'std_msgs/String'
-    });
+    var matchEventTopic = new ROSLIB.Topic(
+      {
+        ros : ros,
+        name : '/robotech_vc_hub/football/event',
+        messageType : 'std_msgs/String'
+      }
+    );
 
-    var cmdVelListener = new ROSLIB.Topic({
-    ros : ros,
-    name : '/purple/cmd_vel',
-    messageType : 'geometry_msgs/Twist'
-  });
+    var cmdVelListener = new ROSLIB.Topic(
+      {
+        ros : ros,
+        name : '/purple/cmd_vel',
+        messageType : 'geometry_msgs/Twist'
+      }
+    );
+
+    var purpleImgListener = new ROSLIB.Topic(
+      {
+        ros : ros,
+        name : '/robotech_vc_hub/purple_img',
+        messageType : 'std_msgs/String'
+      }
+    );
+
+    var redImgListener = new ROSLIB.Topic(
+      {
+        ros : ros,
+        name : '/robotech_vc_hub/red_img',
+        messageType : 'std_msgs/String'
+      }
+    );
 
   cmdVelListener.subscribe(function(message) {
     var element = document.getElementById("purple_vel");
@@ -55,6 +93,29 @@
     //  name : '/pepper_basic_capabilities/talk',
     //  serviceType : 'pepper_basic_capabilities_msgs/DoTalk'
     //});
+
+  purpleImgListener.subscribe(function(msg) {
+    var canvas = document.getElementById('purple-img');
+    ctx = canvas.getContext('2d');
+    var image = new Image();
+    image.onload = function() {
+      ctx.drawImage(image, 0, 0, 680, 340);
+    };
+    image.src = `data:image/png;base64,${msg.data}`;
+  }
+  );
+
+  redImgListener.subscribe(function(msg) {
+    var canvas = document.getElementById('red-img');
+    ctx = canvas.getContext('2d');
+    var image = new Image();
+    image.onload = function() {
+      ctx.drawImage(image, 0, 0, 680, 340);
+    };
+    image.src = `data:image/png;base64,${msg.data}`;
+  }
+
+  );
 
     function match_event(str) {
       var msg = new ROSLIB.Message({
