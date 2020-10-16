@@ -43,4 +43,7 @@
 
   </include>
 
+  <include file="$(rosbridge_server)/launch/rosbridge_websocket.launch" />
+  <node pkg="robotech_referee", type="images_converter.py", name="images_converter_node" />
+
 </launch>
