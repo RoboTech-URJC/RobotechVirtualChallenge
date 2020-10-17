@@ -38,8 +38,14 @@
 
     </div>
 
+<<<<<<< HEAD
     <div class="football-img">
       <canvas id="football-img" width="680" height="340"></canvas>
+=======
+    <div class="sim-img">
+      <canvas id="sim-img"></canvas>
+
+>>>>>>> web-interface-example
     </div>
 
   </body>
@@ -81,6 +87,7 @@
         messageType : 'std_msgs/String'
       }
     );
+<<<<<<< HEAD
 
     var footballImgListener = new ROSLIB.Topic(
       {
@@ -89,6 +96,8 @@
         messageType : 'std_msgs/String'
       }
     );
+=======
+>>>>>>> web-interface-example
 
   cmdVelListener.subscribe(function(message) {
     var element = document.getElementById("purple_vel");
@@ -109,7 +118,12 @@
       ctx.drawImage(image, 0, 0, 680, 340);
     };
     image.src = `data:image/png;base64,${msg.data}`;
+<<<<<<< HEAD
   });
+=======
+  }
+  );
+>>>>>>> web-interface-example
 
   redImgListener.subscribe(function(msg) {
     var canvas = document.getElementById('red-img');
@@ -119,6 +133,7 @@
       ctx.drawImage(image, 0, 0, 680, 340);
     };
     image.src = `data:image/png;base64,${msg.data}`;
+<<<<<<< HEAD
   });
 
   footballImgListener.subscribe(function(msg) {
@@ -137,6 +152,18 @@
     });
     matchEventTopic.publish(msg);
   }
+=======
+  }
+
+  );
+
+    function match_event(str) {
+      var msg = new ROSLIB.Message({
+        data : str
+      });
+      matchEventTopic.publish(msg);
+    }
+>>>>>>> web-interface-example
 
     // ROS Service example
     //function talk () {
