@@ -41,6 +41,7 @@ Gazebo opens with a preliminary maze and 2 Turtlebot3 robots ready to test the m
 
 ## Pending tasks
 
+- [ ] Back-end of the website.
 - [ ] Complete and test the maze.
 - [x] Create a robot model with different colours.
 - [x] Create the fight zone.
