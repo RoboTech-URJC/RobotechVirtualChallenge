@@ -1,0 +1,223 @@
+html, body {
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  /* background-color:#454A59; */
+  background-color:FFFFFF;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /*padding: 30px;*/
+}
+
+.question-text, .puzzle-text {
+  width: 100%;
+  text-align: center !important;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 30px 0;
+}
+
+.question-img {
+  flex-basis: auto;
+  width: 200px;
+  height: 200px;
+}
+
+.question-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.answers-container,
+.puzzle-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.puzzle-item-wrapper {
+  flex-basis: auto;
+  width: 20%;
+  height: 150px;
+  text-align: center;
+  perspective: 100%;
+}
+
+.puzzle-item {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 500ms ease-in-out;
+}
+
+.puzzle-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.is-flipped {
+  transform: rotateY(180deg);
+}
+
+
+figure {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin:0;
+  background-color: grey;
+  backface-visibility: hidden;
+}
+
+figure.back {
+  display: block;
+  color: #fff;
+  background: white;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+}
+
+.answer-item {
+  flex-basis: auto;
+  width: 30%;
+  height: 100px;
+  background-color: lavender;
+  padding-top: 25px;
+  border-radius: 30px;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.gui-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+.gui-item {
+  flex-basis: auto;
+  width: 20%;
+  height: 100px;
+  padding-top: 10px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.gui-input-item {
+  flex-basis: auto;
+  width: 50%;
+  height: 40px;
+  font-size: 20px;
+}
+
+.gui-input-button-item {
+  flex-basis: auto;
+  width: 30%;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+.live-cameras{
+	width: 700px;
+	height: 450px;
+}
+
+.travellers{
+	width: 50px;
+	height: 50px;
+}
+
+
+.tytle-typography{
+
+	font-family: Impact, fantasy;
+	color:red;
+}
+
+.teams-typography{
+
+
+}
+
+.logos{
+	width: 700px;
+	height: 700px;
+}
+
+
+.bg_intro{
+	min-height: 30rem;
+	filter: brightness(80%);
+	filter: contrast(200%);
+	filter: saturate(1);
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 25rem;
+    padding-bottom: 25rem;
+	background-color: #000000;
+    /* background: linear-gradient(100deg,rgba(255,255,255,.05) 0,rgba(255,255,255,.05) 100%); */
+	background: linear-gradient(90deg,rgba(255,255,255,.05) 0,rgba(255,255,255,.05) 100%),url(./images/fire.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  /* background-image: url('./images/among_map.png'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.button_tw {
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.robots-imgs-container {
+  display: flex;
+  width: 100%;
+}
+
+.robot-img {
+  width: 50%;
+  margin: 5px;
+}
+
+.sim-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: green;
