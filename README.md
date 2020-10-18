@@ -39,6 +39,15 @@ Gazebo opens with a preliminary maze and 2 Turtlebot3 robots ready to test the m
 ```
 > The rviz is launched to take things under control.
 
+### WebInterface -- [Tutorials](http://wiki.ros.org/roslibjs/Tutorials)
+```console
+  roslaunch rosbridge_server rosbridge_websocket.launch
+  firefox  ~/[robotech_ws]/src/RobotechVirtualChallenge/web_interface/example/example.html
+```
+> Do a rostopic echo /robotech_vc_hub/football/event and click the buttons. It works!
+
+> Move the robot with the teleop or the navigation-stack and check the interface.
+
 ## Pending tasks
 
 - [ ] Complete and test the maze.
