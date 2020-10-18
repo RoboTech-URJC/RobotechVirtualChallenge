@@ -44,15 +44,7 @@
 
   </include>
 
-<<<<<<< HEAD
   <include file="$(rosbridge_server)/launch/rosbridge_websocket.launch" />
   <node pkg="robotech_referee", type="images_converter.py", name="images_converter_node" />
-=======
-  <!--
-  <node pkg="laser_filters" type="scan_to_scan_filter_chain" name="laser_filter">
-    <rosparam command="load" file="$(find robots)/definition/sim/my_laser_config.yaml" />
-  </node>
-  -->
->>>>>>> cameras-in-gazebo
 
 </launch>
