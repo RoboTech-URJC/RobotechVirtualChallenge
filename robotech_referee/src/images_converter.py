@@ -92,7 +92,7 @@ class ImageConverter():
 
 def main(args):
     rospy.init_node('images_converter_node')
-    loop_rate = rospy.Rate(2)
+    loop_rate = rospy.Rate(4)
 
     try:
         converter = ImageConverter()
