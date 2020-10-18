@@ -28,7 +28,7 @@
 
   <!-- rviz -->
   <group if="$(arg open_rviz)">
-    <node pkg="rviz" type="rviz" name="rviz" required="true"
+    <node pkg="rviz" type="rviz" name="rviz" required="false"
           args="-d $(find navigation)/rviz/navigation.rviz"/>
   </group>
 </launch>
