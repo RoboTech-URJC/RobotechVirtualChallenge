@@ -43,7 +43,9 @@
 					 <div class="" style="padding:20px"></div>
 			     <div class="row">
 			       <div class="col-md">
-			          <img src="./images/among_map.png" alt="" class="live-cameras rounded">
+					   <div class="robot-img">
+				         <canvas id="red-img" width="680" height="340"></canvas>
+				       </div>
 			       </div>
 			       <div class="col-md">
 					   <!-- <div class="alert-light text-dark" role="alert"> -->
@@ -81,7 +83,9 @@
 						<!-- </div> -->
 			       </div>
 			       <div class="col-md">
-					 <img src="./images/among_map.png" alt="" class="live-cameras rounded">
+					   <div class="robot-img">
+ 				        <canvas id="purple-img" width="680" height="340"></canvas>
+ 				      </div>
 			       </div>
 			     </div>
 
@@ -124,7 +128,9 @@
 					 </table>
 			       </div>
 			       <div class="col-md">
-			        <img src="./images/among_map.png" alt="" class="live-cameras rounded">
+					   <div class="sim-img">
+				         <canvas id="sim-img"></canvas>
+				       </div>
 			       </div>
 			       <div class="col-md">
 					   	<div class="" style="padding:20px"></div>
@@ -170,6 +176,133 @@
 			     </div>
 	   			</div>
 		 	</div>
+
+
+			<script>
+
+			  var ip = '127.0.0.1'
+			  var ros = new ROSLIB.Ros({
+				url : 'ws://'+String(ip)+':9090'
+			  });
+
+			  var matchEventTopic = new ROSLIB.Topic(
+				{
+				  ros : ros,
+				  name : '/robotech_vc_hub/football/event',
+				  messageType : 'std_msgs/String'
+				}
+			  );
+
+			  var cmdVelListener = new ROSLIB.Topic(
+				{
+				  ros : ros,
+				  name : '/purple/cmd_vel',
+				  messageType : 'geometry_msgs/Twist'
+				}
+			  );
+
+			  var purpleImgListener = new ROSLIB.Topic(
+				{
+				  ros : ros,
+				  name : '/robotech_vc_hub/purple_img',
+				  messageType : 'std_msgs/String'
+				}
+			  );
+
+			  var redImgListener = new ROSLIB.Topic(
+				{
+				  ros : ros,
+				  name : '/robotech_vc_hub/red_img',
+				  messageType : 'std_msgs/String'
+				}
+			  );
+
+			  var footballImgListener = new ROSLIB.Topic(
+				{
+				  ros : ros,
+				  name : '/robotech_vc_hub/football_img',
+				  messageType : 'std_msgs/String'
+				}
+			  );
+
+			cmdVelListener.subscribe(function(message) {
+			  var element = document.getElementById("purple_vel");
+			  element.innerHTML = message.linear.x;
+			});
+			  // ROS Service example
+			  //var talkSrv = new ROSLIB.Service({
+			  //  ros : ros,
+			  //  name : '/pepper_basic_capabilities/talk',
+			  //  serviceType : 'pepper_basic_capabilities_msgs/DoTalk'
+			  //});
+
+			purpleImgListener.subscribe(function(msg) {
+			  var canvas = document.getElementById('purple-img');
+			  ctx = canvas.getContext('2d');
+			  var image = new Image();
+			  image.onload = function() {
+				ctx.drawImage(image, 0, 0, 680, 340);
+			  };
+			  image.src = `data:image/png;base64,${msg.data}`;
+			});
+
+			redImgListener.subscribe(function(msg) {
+			  var canvas = document.getElementById('red-img');
+			  ctx = canvas.getContext('2d');
+			  var image = new Image();
+			  image.onload = function() {
+				ctx.drawImage(image, 0, 0, 680, 340);
+			  };
+			  image.src = `data:image/png;base64,${msg.data}`;
+			});
+
+			footballImgListener.subscribe(function(msg) {
+			  var canvas = document.getElementById('football-img');
+			  ctx = canvas.getContext('2d');
+			  var image = new Image();
+			  image.onload = function() {
+				ctx.drawImage(image, 0, 0, 680, 340);
+			  };
+			  image.src = `data:image/png;base64,${msg.data}`;
+			});
+
+			function match_event(str) {
+			  var msg = new ROSLIB.Message({
+				data : str
+			  });
+			  matchEventTopic.publish(msg);
+			}
+
+			  // ROS Service example
+			  //function talk () {
+			  //  var str = document.getElementById("sayText").value;
+			  //  var talkRequest = new ROSLIB.ServiceRequest({
+			  //    sentence : str
+			  //  });
+			  //  talkSrv.callService(talkRequest, function(result) {});
+			  //}
+
+			</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 			<script>
 			// Set the date we're counting down to
