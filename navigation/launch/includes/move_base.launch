@@ -22,6 +22,8 @@
     <param name="global_costmap/robot_base_frame" value="$(arg tf_prefix)/base_footprint" />
     <param name="local_costmap/global_frame" value="$(arg tf_prefix)/odom" />
     <param name="local_costmap/robot_base_frame" value="$(arg tf_prefix)/base_footprint" />
+    <param name="global_costmap/scan/sensor_frame" value="$(arg tf_prefix)/base_scan" />
+    <param name="local_costmap/scan/sensor_frame" value="$(arg tf_prefix)/base_scan" />
   </node>
 
 </launch>
