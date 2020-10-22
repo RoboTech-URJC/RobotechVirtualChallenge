@@ -13602,7 +13602,7 @@
           </ode>
         </physics>
       </joint>
-      <static>0</static>
+      <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
       <pose>-6.5201 3.19593 0 0 -0 0</pose>
     </model>
@@ -13963,7 +13963,7 @@
           </ode>
         </physics>
       </joint>
-      <static>0</static>
+      <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
       <pose>-6.52579 2.04228 0.093278 -1.6e-05 -0 -0.000809</pose>
     </model>
@@ -14324,7 +14324,7 @@
           </ode>
         </physics>
       </joint>
-      <static>0</static>
+      <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
       <pose>-4.22277 3.22654 0.093278 -1.6e-05 -0 -0.000809</pose>
     </model>
