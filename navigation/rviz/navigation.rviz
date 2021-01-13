@@ -7,6 +7,8 @@ Panels:
         - /TF1/Frames1
         - /TF1/Tree1
         - /Global Map1
+        - /Full Plan1
+        - /Full Plan2
       Splitter Ratio: 0.3989070951938629
     Tree Height: 772
   - Class: rviz/Selection
@@ -154,15 +156,6 @@ Visualization Manager:
       Show Names: false
       Tree:
         map:
-          purple/odom:
-            purple/base_footprint:
-              purple/base_link:
-                purple/base_scan:
-                  {}
-                purple/camera_link:
-                  purple/camera_rgb_frame:
-                    purple/camera_rgb_optical_frame:
-                      {}
           red/odom:
             red/base_footprint:
               red/base_link:
@@ -189,9 +182,9 @@ Visualization Manager:
       Enabled: true
       Invert Rainbow: false
       Max Color: 255; 255; 255
-      Max Intensity: 0.1330886334180832
+      Max Intensity: 0.1320071816444397
       Min Color: 0; 255; 0
-      Min Intensity: 0.13197937607765198
+      Min Intensity: 0.13199478387832642
       Name: LaserScan
       Position Transformer: XYZ
       Queue Size: 10
@@ -219,9 +212,9 @@ Visualization Manager:
       Enabled: true
       Invert Rainbow: false
       Max Color: 255; 255; 255
-      Max Intensity: 0.13733713328838348
+      Max Intensity: 0.13200712203979492
       Min Color: 255; 0; 0
-      Min Intensity: 0.13215653598308563
+      Min Intensity: 0.13199108839035034
       Name: LaserScan
       Position Transformer: XYZ
       Queue Size: 10
@@ -526,7 +519,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 25.859535217285156
+      Distance: 19.40041732788086
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -534,17 +527,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: -3.05501127243042
-        Y: 1.9515995979309082
-        Z: 4.04744815826416
+        X: -7.682120323181152
+        Y: 0.033634159713983536
+        Z: 5.422549247741699
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.2447965145111084
+      Pitch: 1.1747967004776
       Target Frame: <Fixed Frame>
-      Yaw: 1.5550003051757812
+      Yaw: 1.3999994993209839
     Saved: ~
 Window Geometry:
   Displays:
@@ -562,5 +555,5 @@ Window Geometry:
   Views:
     collapsed: true
   Width: 1680
-  X: 0
+  X: 1459
   Y: 27
