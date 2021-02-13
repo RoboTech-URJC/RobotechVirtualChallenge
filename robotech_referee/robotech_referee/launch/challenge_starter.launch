@@ -1,0 +1,11 @@
+<launch>
+
+  <arg name="team1_name" default="algo1" />
+  <arg name="opponent1_color" default ="red" />
+  <arg name="team1_rol" default="crew_member" />
+
+  <arg name="team2_name" default="algo2" />
+  <arg name="opponent2_color" default ="purple" />
+  <arg name="team2_rol" default="impostor" />
+
+</launch>
