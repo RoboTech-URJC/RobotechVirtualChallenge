@@ -104,10 +104,13 @@ int main(int argc, char** argv)
 {
   ros::init(argc, argv, "navigate_to_wp_node");
   navigation::Navigator navigator;
+
+  ros::Rate loop_rate(5);
   while (ros::ok())
   {
     navigator.step();
     ros::spinOnce();
+    loop_rate.sleep();
   }
   return 0;
 }
