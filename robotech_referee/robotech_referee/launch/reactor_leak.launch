@@ -1,0 +1,11 @@
+<launch>
+
+  <arg name="pub_topic" default="/robotech_vc_hub/race_start" />
+
+  <node pkg="robotech_referee" type="task_starter_node" name="task_starter_node" output="screen">
+
+    <param name="pub_topic" value="$(arg pub_topic)" />
+
+  </node>
+
+</launch>
