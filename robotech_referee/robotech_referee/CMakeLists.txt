@@ -14,6 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   std_msgs
   robotech_referee_msgs
+  geometry_msgs
 )
 
 catkin_package(
@@ -44,6 +45,9 @@ target_link_libraries(challenge_starter_node ${catkin_LIBRARIES})
 
 add_executable(task_starter_node src/task_starter.cpp)
 target_link_libraries(task_starter_node ${catkin_LIBRARIES})
+
+add_executable(speed_checker_node src/speed_checker.cpp)
+target_link_libraries(speed_checker_node ${catkin_LIBRARIES})
 
 #############
 ## Testing ##
