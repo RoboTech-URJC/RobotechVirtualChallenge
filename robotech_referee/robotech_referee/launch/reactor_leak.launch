@@ -1,11 +1,30 @@
 <launch>
 
   <arg name="pub_topic" default="/robotech_vc_hub/race_start" />
+  <arg name="vel_topic" default="/cmd_vel" />
+  <arg name="max_linear" default="0.7" />
+  <arg name="max_angular" default="2.5" />
 
   <node pkg="robotech_referee" type="task_starter_node" name="task_starter_node" output="screen">
 
     <param name="pub_topic" value="$(arg pub_topic)" />
 
   </node>
+
+  <group ns="red">
+    <node pkg="robotech_referee" type="speed_checker_node" name="speed_checker_node" output="screen">
+      <param name="vel_topic" value="$(arg vel_topic)" />
+      <param name="max_linear" value="$(arg max_linear)" />
+      <param name="max_angular" value="$(arg max_angular)" />
+    </node>
+  </group>
+
+  <group ns="purple">
+    <node pkg="robotech_referee" type="speed_checker_node" name="speed_checker_node" output="screen">
+      <param name="vel_topic" value="$(arg vel_topic)" />
+      <param name="max_linear" value="$(arg max_linear)" />
+      <param name="max_angular" value="$(arg max_angular)" />
+    </node>
+  </group>
 
 </launch>
