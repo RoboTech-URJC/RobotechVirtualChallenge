@@ -23,7 +23,7 @@ you set becasue this value is overwriten from launcher file.-->
 
 Gazebo opens with a preliminary maze and 2 Turtlebot3 robots ready to test the maze.
 
-![maze](resources/simulator_noetic.png)
+![maze](resources/final_maze.png)
 
 
 ### Navigate manually and try the arena
@@ -34,8 +34,13 @@ Gazebo opens with a preliminary maze and 2 Turtlebot3 robots ready to test the m
 
 
 ### Using the navigation-stack
+> purple robot
 ```console
-  roslaunch navigation purple_tb3_navigation.launch OR roslaunch navigation red_tb3_navigation.launch
+  roslaunch navigation purple_tb3_navigation.launch
+```
+> red robot
+```console
+  roslaunch navigation red_tb3_navigation.launch
 ```
 > The rviz is launched to take things under control.
 
