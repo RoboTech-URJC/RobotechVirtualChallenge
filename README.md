@@ -12,6 +12,7 @@ git clone --recursive [-b noetic] https://github.com/RoboTech-URJC/RobotechVirtu
 ```console
   source ~/[robotech_ws]/devel/setup.bash
   export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:[robotech_ws]/src/RobotechVirtualChallenge/robots/worlds/models
+  export TURTLEBOT3_MODEL=waffle
 ```
 ### Launching Gazebo
 ```console
