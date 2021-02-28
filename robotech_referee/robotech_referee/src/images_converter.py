@@ -25,7 +25,7 @@ class ImageConverter():
 
         self.purple_img_sub_ = rospy.Subscriber('/purple/camera/rgb/image_raw', Image, self.purpleCb_)
         self.red_img_sub_ = rospy.Subscriber('/red/camera/rgb/image_raw', Image, self.redCb_)
-        self.football_img_sub_ = rospy.Subscriber('/camera_1/camera/rgb/image_raw', Image, self.footballCb_)
+        self.football_img_sub_ = rospy.Subscriber('/camera_1/camera/image_raw', Image, self.footballCb_)
 
         self.purple_img_pub_ = rospy.Publisher('/robotech_vc_hub/purple_img', String, queue_size=1)
         self.red_img_pub_ = rospy.Publisher('/robotech_vc_hub/red_img', String, queue_size=1)
