@@ -1,5 +1,10 @@
 # RobotechVirtualChallenge
 
+![maze](resources/header_social_media.png)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+![last commit](https://img.shields.io/github/last-commit/RoboTech-URJC/RobotechVirtualChallenge)
+![forks](https://img.shields.io/github/forks/RoboTech-URJC/RobotechVirtualChallenge?style=social)
+
 ## Launching the Robotech virtual challenge world
 
 ### Clone the repo in your workspace and build it.
