@@ -38,30 +38,32 @@
 			 <div class="jumbotron" style="background-color: #FFFFFF">
 				<div class="container-fluid" style="text-align:center">
 					<div class="row">
-					  <div class="col-md center" style="color: orange">
-						  <span style="color: red;font-size: 60px" class=" font-weight-bold">TEAM A</span><span class="font-weight-bold"style="color:orange;font-size: 35px">&nbsp&nbsp&nbsp&nbspVS&nbsp&nbsp&nbsp&nbsp</span><span style="color: purple;font-size: 60px" class=" font-weight-bold">TEAM B</span>
-					  </div>
+					  <!-- <div class="col-md center" style="color: orange">
+						  <span style="color: red;font-size: 60px" class=" font-weight-bold">TEAM A</span><span class="font-weight-bold"style="color:orange;font-size: 35px">
+							&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span><span style="color: purple;font-size: 60px" class=" font-weight-bold">TEAM B</span>
+					  </div> -->
 					</div>
 					 <div class="" style="padding:20px"></div>
 			     <div class="row">
 			       <div class="col-md">
+					<span style="color: red;font-size: 60px" class=" font-weight-bold">TEAM A</span><span class="font-weight-bold"style="color:orange;font-size: 35px">
 					   <div class="robot-img">
 				         <canvas id="red-img" width="720" height="460"></canvas>
 				       </div>
 			       </div>
 			       <div class="col-md">
 					   <!-- <div class="alert-light text-dark" role="alert"> -->
-					   <div class="" style="padding:20px"></div>
+					   <div class="" style="padding:50px"></div>
 
 					   <div class="row">
-						   <!-- <div class="col-md center">
+						   <div class="col-md center">
 							   <h4 style="color:grey">TIME OF GAME</h4>
 	 						  <h1 id="counter_1" style="color:rgb(0, 0, 0); font-size: 70px"></h1>
-						   </div> -->
-						   <!-- <div class="col-md center">
+						   </div>
+						   <div class="col-md center">
 							   <h4 style="color:grey">TIME TO END</h4>
 							  <h1 id="counter_2" style="color:red; font-size: 70px"></h1>
-						   </div> -->
+						   </div>
 					   </div>
 					    <div class="" style="padding:20px"></div>
 
@@ -70,10 +72,10 @@
 
 						  <div class="row">
 							  <div class="col-md center">
-								  <h2 style="color:white">POINTS A</h2>
+								  <h2 style="color:grey">POINTS A</h2>
 							  </div>
 							  <div class="col-md center">
-								  <h2 style="color:white">POINTS B</h2>
+								  <h2 style="color:grey">POINTS B</h2>
 							  </div>
 						  </div>
 
@@ -85,6 +87,7 @@
 						<!-- </div> -->
 			       </div>
 			       <div class="col-md">
+					<span style="color: purple;font-size: 60px" class=" font-weight-bold">TEAM B</span>
 					   <div class="robot-img">
  				        <canvas id="purple-img" width="720" height="460"></canvas>
  				      </div>
@@ -294,113 +297,57 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 			<script>
-			// Set the date we're counting down to
-			// var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+				// Set the date we're counting down to
+				var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+				var c_time = new Date().getTime();
+				var min_time = c_time;
+	
+				var x = setInterval(function() {
 
-			// Update the count down every 1 second
-			var x = setInterval(function() {
+					var d = new Date();
+					var n = d.getTime();
+					dis = n - min_time;
 
-			  // Get today's date and time
-			  var now = new Date().getTime();
+					var minutes = Math.floor((dis % (1000 * 60 * 60)) / (1000 * 60));
+					var seconds = Math.floor((dis % (1000 * 60)) / 1000);
 
-			  // Find the distance between now and the count down date
-			  var distance = 0 + now;
+					document.getElementById("counter_1").innerHTML = " + " +  minutes + ":" + seconds;
 
-			  // Time calculations for days, hours, minutes and seconds
-			  // var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-			  // var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-			//   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-			  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+					if (dis > 300000) {
+						clearInterval(x);
+						document.getElementById("demo").innerHTML = "TIMES UP";
+					}
 
-			  var x = new Boolean(false);
-
-
-			  if(x == false){
-			  	var minutes = 0;
-				 x = true;
-			  }
+				}, 1000);
+				</script>
 
 
-			//   var minutes = 0;
-			  // var seconds = 0;
-			 //  var seconds = 0;
-			 //  var minutes = 0;
-			 //  var max_time = 5; //minutes
-			 //
-			 //  for (var i = 0; i < maxtime; i++) {
-			 //  	seconds = seconds++;
-				// if (seconds == 60 && minues < max_time) {
-				// 	second = 0;
-				// 	minutes++;
-				// }else if (minues == max_time) {
-				// 	break;
-				// }
-			 //
-		  	 // }
-			
-			//    document.getElementById("counter_1").innerHTML = "  " + minutes + ":" + seconds;
-				document.getElementById("counter_1").innerHTML = "  " + minutes + ":" + seconds;
-
-				if(seconds == 59){
-					minutes = minutes + 1;
-				}
-
-			  // If the count down is finished, write some text
-			  if (distance < 0) {
-			    clearInterval(x);
-			    document.getElementById("counter_1").innerHTML = "EXPIRED";
-			  }
-			}, 1000);
-			</script>
 
 
-			<script>
-			// Set the date we're counting down to
-			var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+				<script>
+				// Set the date we're counting down to
+				var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+				var c_time = new Date().getTime();
+				var max_time = 300000 + c_time;
+	
+				var x = setInterval(function() {
+	
+					var d = new Date();
+					var n = d.getTime();
+					dis = max_time - n;
 
-			// Update the count down every 1 second
-			var x = setInterval(function() {
+					var minutes = Math.floor((dis % (1000 * 60 * 60)) / (1000 * 60));
+					var seconds = Math.floor((dis % (1000 * 60)) / 1000);
 
-			  // Get today's date and time
-			  var now = new Date().getTime();
+					document.getElementById("counter_2").innerHTML = " - " +  minutes + ":" + seconds;
 
-			  // Find the distance between now and the count down date
-			  var distance = countDownDate - now;
+					if (dis < 0) {
+						clearInterval(x);
+						document.getElementById("demo").innerHTML = "TIMES UP";
+					}
 
-			  // Time calculations for days, hours, minutes and seconds
-			  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-			  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-			  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-			  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-			  // Display the result in the element with id="demo"
-			  document.getElementById("counter_2").innerHTML = " - " + minutes + ":" + seconds;
-
-			  // If the count down is finished, write some text
-			//   if (distance < 0) {
-			//     clearInterval(x);
-			    // document.getElementById("counter_2").innerHTML = "TIMES UP";
-			//   }
-			}, 1000);
+				}, 1000);
 			</script>
 
 
