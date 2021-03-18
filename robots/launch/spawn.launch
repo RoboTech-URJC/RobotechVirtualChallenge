@@ -6,12 +6,12 @@
     <arg name="purple_z_pos" default="0.008997"/>
     <arg name="purple_posYaw" default="-1.57"/>
 
-    <arg name="camera_1_x_pos" default="1.0"/>
-    <arg name="camera_1_y_pos" default="6.81"/>
-    <arg name="camera_1_z_pos" default="6.39"/>
+    <arg name="camera_1_x_pos" default="0.0"/>
+    <arg name="camera_1_y_pos" default="-2.0"/>
+    <arg name="camera_1_z_pos" default="25.0"/>
     <arg name="camera_1_posRoll" default="-3.14"/>
     <arg name="camera_1_posPitch" default="1.57"/>
-    <arg name="camera_1_posYaw" default="1.57"/>
+    <arg name="camera_1_posYaw" default="-1.57"/>
 
     <arg name="red_x_pos" default="2.205"/>
     <arg name="red_y_pos" default="7.0"/>

@@ -35,7 +35,7 @@
 
 
 
-			 <div class="jumbotron" style="background-color: #000000">
+			 <div class="jumbotron" style="background-color: #FFFFFF">
 				<div class="container-fluid" style="text-align:center">
 					<div class="row">
 					  <div class="col-md center" style="color: orange">
@@ -54,18 +54,18 @@
 					   <div class="" style="padding:20px"></div>
 
 					   <div class="row">
-						   <div class="col-md center">
+						   <!-- <div class="col-md center">
 							   <h4 style="color:grey">TIME OF GAME</h4>
-	 						  <h1 id="counter_1" style="color:white; font-size: 70px"></h1>
-						   </div>
-						   <div class="col-md center">
+	 						  <h1 id="counter_1" style="color:rgb(0, 0, 0); font-size: 70px"></h1>
+						   </div> -->
+						   <!-- <div class="col-md center">
 							   <h4 style="color:grey">TIME TO END</h4>
 							  <h1 id="counter_2" style="color:red; font-size: 70px"></h1>
-						   </div>
+						   </div> -->
 					   </div>
 					    <div class="" style="padding:20px"></div>
 
-						    <h4 style="color:grey">POINTS</h4>
+						    <!-- <h4 style="color:grey">POINTS</h4> -->
 						  <div class="" style="padding:15px"></div>
 
 						  <div class="row">
@@ -95,9 +95,11 @@
 				 <div class="row">
 			       <div class="col-md">
 					   	<div class="" style="padding:20px"></div>
-			          <h4 style="color:grey">GENERAL CLASIFICATION</h4>
+			          <!-- <h4 style="color:grey">GENERAL CLASIFICATION</h4> -->
+					  <div class="" style="padding:10px"></div>
+					  <img src="./images/urjc.png" alt=""   style="width: 250px; height: 350px">
 					   <div class="" style="padding:10px"></div>
-					  <table class="table table-dark">
+					  <!-- <table class="table table-dark">
 					   <thead>
 						 <tr>
 						   <th scope="col">#</th>
@@ -127,18 +129,19 @@
 						   <td>the Bird</td>
 						 </tr>
 					   </tbody>
-					 </table>
+					 </table> -->
 			       </div>
 			       <div class="col-md">
 					   <div class="robot-img">
-				         <canvas id="football-img" width="720" height="460"></canvas>
+				         <canvas id="football-img" width="760" height="500"></canvas>
 				       </div>
 			       </div>
 			       <div class="col-md">
-					   	<div class="" style="padding:20px"></div>
-						 <h4 style="color:grey">CLASIFICATION PER TASK</h4>
+					   	<!-- <div class="" style="padding:10px"></div> -->
+						   <img src="./images/logo_2.png" alt="" class="logos mx-auto d-block" style="text-align:center"></img>
+						 <!-- <h4 style="color:grey">CLASIFICATION PER TASK</h4> -->
 						 <div class="" style="padding:10px"></div>
-					   <table class="table table-dark">
+					   <!-- <table class="table table-dark">
 					    <thead>
 					      <tr>
 					        <th scope="col">#</th>
@@ -173,7 +176,7 @@
 							<td>@mdo</td>
 					      </tr>
 					    </tbody>
-					  </table>
+					  </table> -->
 				</div>
 			     </div>
 	   			</div>
@@ -266,7 +269,7 @@
 			  ctx = canvas.getContext('2d');
 			  var image = new Image();
 			  image.onload = function() {
-				ctx.drawImage(image, 0, 0, 720, 460);
+				ctx.drawImage(image, 0, 0, 740, 480);
 			  };
 			  image.src = `data:image/png;base64,${msg.data}`;
 			});
@@ -325,12 +328,19 @@
 			  // Time calculations for days, hours, minutes and seconds
 			  // var days = Math.floor(distance / (1000 * 60 * 60 * 24));
 			  // var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-			  // var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			//   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 			  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+			  var x = new Boolean(false);
 
 
-			  var minutes = 0;
+			  if(x == false){
+			  	var minutes = 0;
+				 x = true;
+			  }
+
+
+			//   var minutes = 0;
 			  // var seconds = 0;
 			 //  var seconds = 0;
 			 //  var minutes = 0;
@@ -346,8 +356,13 @@
 				// }
 			 //
 		  	 // }
+			
+			//    document.getElementById("counter_1").innerHTML = "  " + minutes + ":" + seconds;
+				document.getElementById("counter_1").innerHTML = "  " + minutes + ":" + seconds;
 
-			   document.getElementById("counter_1").innerHTML = " + " + minutes + ":" + seconds;
+				if(seconds == 59){
+					minutes = minutes + 1;
+				}
 
 			  // If the count down is finished, write some text
 			  if (distance < 0) {
@@ -381,10 +396,10 @@
 			  document.getElementById("counter_2").innerHTML = " - " + minutes + ":" + seconds;
 
 			  // If the count down is finished, write some text
-			  if (distance < 0) {
-			    clearInterval(x);
-			    document.getElementById("counter_2").innerHTML = "TIMES UP";
-			  }
+			//   if (distance < 0) {
+			//     clearInterval(x);
+			    // document.getElementById("counter_2").innerHTML = "TIMES UP";
+			//   }
 			}, 1000);
 			</script>
 
