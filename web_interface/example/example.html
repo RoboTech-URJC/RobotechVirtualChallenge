@@ -6,46 +6,112 @@
     <meta name="author" content="Jonatan Gines">
 
     <link href="css/index.css" rel="stylesheet">
+    <title>RTVC REFEREE</title>
+    <link rel="icon" href="../../resources/logo_2.png">
+    <!-- <link href="www/combat_viwer.html"> -->
     <script type="text/javascript" src="http://static.robotwebtools.org/EventEmitter2/current/eventemitter2.min.js"></script>
     <script type="text/javascript" src="http://static.robotwebtools.org/roslibjs/current/roslib.min.js"></script>
   </head>
 
   <body>
     <div class="gui-container">
-      <h1>Controllers</h1>
+      <h1>REFEREE</h1>
     </div>
-    <div>
+
+
+    <!-- <div>
       <div class="info2show">
         <p1>Purple vel (m/s):</p1>
         <span id="purple_vel"></span>
       </div>
-    </div>
+    </div> -->
+    <div class="" style="padding:10px"></div>
     <div class="gui-container">
-      <button type="button" onclick="match_event('start')" class="gui-item">Start</button>
-      <button type="button" onclick="match_event('stop')" class="gui-item">Stop</button>
-      <button type="button" onclick="match_event('resume')" class="gui-item">Resume</button>
+      <button type="button" style="background-color:green;" onclick="match_event('start')" class="gui-item">Start</button>
+      <button type="button" style="background-color: red;" onclick="match_event('stop')" class="gui-item">Stop</button>
+      <button type="button" style="background-color: orange;" onclick="match_event('resume')" class="gui-item">Resume</button>
     </div>
-
+    <div class="" style="padding:10px"></div>
+   
+    <!-- <div class="container">
+      <span style="color: red;font-size: 20px" class=" font-weight-bold">RED ROBOT</span>
+      <span style="color: purple;font-size: 20px" class=" font-weight-bold">PURPLE ROBOT</span>
+    </div> -->
+    
     <div class="robots-imgs-container">
-
       <div class="robot-img">
-        <canvas id="red-img" width="680" height="340"></canvas>
+        <canvas id="red-img" width="480" height="280"></canvas>
+        <div class="" style="padding:10px"></div>
+        <table class="table table-dark">
+          <thead>
+            <tr>
+              <div>
+                <span style="color: red;font-size: 20px; margin-left: 160px;" class=" font-weight-bold">RED ROBOT</span>
+                <div class="" style="padding:10px"></div>
+              </div>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <th scope="row">Speed: </th>
+              <span id="red_vel"></span>
+            </tr>
+        </tbody>
+        </table>
       </div>
+      <!-- </div> -->
 
+      <div class="football-img">
+        <canvas id="football-img" width="480" height="280"></canvas> 
+        <div class="row" style="margin-left: 160px;">
+          <div class="col-md center">
+            <h4 style="color:grey">TIME OF GAME</h4>
+            <h1 id="counter_1" style="color:rgb(0, 0, 0); font-size: 30px"></h1>
+          </div>
+          <div class="col-md center">
+            <h4 style="color:grey">TIME TO END</h4>
+           <h1 id="counter_2" style="color:red; font-size: 30px"></h1>
+          </div>
+        </div>
+      </div>
+      
       <div class="robot-img">
-        <canvas id="purple-img" width="680" height="340"></canvas>
+        <canvas id="purple-img" width="480" height="280"></canvas>
+        <div class="" style="padding:10px"></div>
+        <table class="table table-dark">
+          <thead>
+            <tr>
+              <div>
+                <span style="color: purple;font-size: 20px; margin-left: 160px;" class=" font-weight-bold">PURPLE ROBOT</span>
+                <div class="" style="padding:10px"></div>
+              </div>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <th scope="row">Speed: </th>
+              <span id="purple_vel"></span>
+            </tr>
+        </tbody>
+        </table>
       </div>
 
     </div>
 
-    <div class="sim-img">
+    <!-- <div class="sim-img">
       <canvas id="sim-img"></canvas>
-    </div>
-    <!-- <div class="football-img">
-      <canvas id="football-img" width="680" height="340"></canvas> 
-    </div>-->
+    </div> -->
+    
+
+
+
 
   </body>
+
+
+
+
+
   <script>
 
     var ip = '127.0.0.1'
@@ -97,6 +163,10 @@
     var element = document.getElementById("purple_vel");
     element.innerHTML = message.linear.x;
   });
+  cmdVelListener.subscribe(function(message) {
+    var element = document.getElementById("red_vel");
+    element.innerHTML = message.linear.x;
+  });
     // ROS Service example
     //var talkSrv = new ROSLIB.Service({
     //  ros : ros,
@@ -109,7 +179,7 @@
     ctx = canvas.getContext('2d');
     var image = new Image();
     image.onload = function() {
-      ctx.drawImage(image, 0, 0, 680, 340);
+      ctx.drawImage(image, 0, 0, 480, 280);
     };
     image.src = `data:image/png;base64,${msg.data}`;
   });
@@ -119,7 +189,7 @@
     ctx = canvas.getContext('2d');
     var image = new Image();
     image.onload = function() {
-      ctx.drawImage(image, 0, 0, 680, 340);
+      ctx.drawImage(image, 0, 0, 480, 280);
     };
     image.src = `data:image/png;base64,${msg.data}`;
   });
@@ -129,7 +199,7 @@
     ctx = canvas.getContext('2d');
     var image = new Image();
     image.onload = function() {
-      ctx.drawImage(image, 0, 0, 680, 340);
+      ctx.drawImage(image, 0, 0, 480, 280);
     };
     image.src = `data:image/png;base64,${msg.data}`;
   });
@@ -151,4 +221,61 @@
     //}
 
   </script>
+
+
+
+<script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+  var c_time = new Date().getTime();
+  var min_time = c_time;
+
+  var x = setInterval(function() {
+
+    var d = new Date();
+    var n = d.getTime();
+    dis = n - min_time;
+
+    var minutes = Math.floor((dis % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((dis % (1000 * 60)) / 1000);
+
+    document.getElementById("counter_1").innerHTML = " + " +  minutes + ":" + seconds;
+
+    if (dis > 300000) {
+      clearInterval(x);
+      document.getElementById("demo").innerHTML = "TIMES UP";
+    }
+
+  }, 1000);
+  </script>
+
+
+  <script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+  var c_time = new Date().getTime();
+  var max_time = 300000 + c_time;
+
+  var x = setInterval(function() {
+
+    var d = new Date();
+    var n = d.getTime();
+    dis = max_time - n;
+
+    var minutes = Math.floor((dis % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((dis % (1000 * 60)) / 1000);
+
+    document.getElementById("counter_2").innerHTML = " - " +  minutes + ":" + seconds;
+
+    if (dis < 0) {
+      clearInterval(x);
+      document.getElementById("demo").innerHTML = "TIMES UP";
+    }
+
+  }, 1000);
+</script>
+
+
+
+
 </html>
