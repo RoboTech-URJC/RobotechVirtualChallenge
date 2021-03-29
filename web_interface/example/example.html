@@ -6,7 +6,7 @@
     <meta name="author" content="Jonatan Gines">
 
     <link href="css/index.css" rel="stylesheet">
-    <title>RTVC REFEREE</title>
+    <title>REFEREE</title>
     <link rel="icon" href="../../resources/logo_2.png">
     <!-- <link href="www/combat_viwer.html"> -->
     <script type="text/javascript" src="http://static.robotwebtools.org/EventEmitter2/current/eventemitter2.min.js"></script>
@@ -25,11 +25,12 @@
         <span id="purple_vel"></span>
       </div>
     </div> -->
-    <div class="" style="padding:10px"></div>
+    <!-- <div class="" style="padding:5px"></div> -->
     <div class="gui-container">
       <button type="button" style="background-color:green;" onclick="match_event('start')" class="gui-item">Start</button>
       <button type="button" style="background-color: red;" onclick="match_event('stop')" class="gui-item">Stop</button>
       <button type="button" style="background-color: orange;" onclick="match_event('resume')" class="gui-item">Resume</button>
+      <button type="button" style="background-color: grey;" onclick="match_event('finish')" class="gui-item">Finish</button>
     </div>
     <div class="" style="padding:10px"></div>
    
@@ -46,7 +47,9 @@
           <thead>
             <tr>
               <div>
-                <span style="color: red;font-size: 20px; margin-left: 160px;" class=" font-weight-bold">RED ROBOT</span>
+                <p style="color: red;font-size: 20px; margin-left: 160px;" id="name_team_red"></p>
+              
+                <!-- <span style="color: red;font-size: 20px; margin-left: 160px;" class=" font-weight-bold">RED ROBOT</span> -->
                 <div class="" style="padding:10px"></div>
               </div>
             </tr>
@@ -56,6 +59,9 @@
               <th scope="row">Speed: </th>
               <span id="red_vel"></span>
             </tr>
+            <tr>
+             Points: <input type="text" id="red_points" value="0"/>
+            </tr>
         </tbody>
         </table>
       </div>
@@ -63,16 +69,23 @@
 
       <div class="football-img">
         <canvas id="football-img" width="480" height="280"></canvas> 
-        <div class="row" style="margin-left: 160px;">
-          <div class="col-md center">
+        <!-- <div class="row" style="margin-left: 160px;"> -->
+          <div class="col-md center" style="text-align: center;">
             <h4 style="color:grey">TIME OF GAME</h4>
             <h1 id="counter_1" style="color:rgb(0, 0, 0); font-size: 30px"></h1>
           </div>
-          <div class="col-md center">
+          <div class="col-md center" style="text-align: center;">
             <h4 style="color:grey">TIME TO END</h4>
            <h1 id="counter_2" style="color:red; font-size: 30px"></h1>
           </div>
-        </div>
+          <div class="col-md center" style="text-align: center;">
+            <input type="button" onclick="incrementRedPointsValue()" value="+100 POINTS RED" />
+            <input type="button" onclick="decrementRedPointsValue()" value="-100 POINTS RED" /><br><br>
+            <input type="button" onclick="incrementPurplePointsValue()" value="+100 POINTS PURPLE" />
+            <input type="button" onclick="decrementPurplePointsValue()" value="-100 POINTS PURPLE" /><br> <br>
+            <!-- <input type="button" onclick="decrementPurplePointsValue()" value="SET NAMES" /> -->
+         </div>
+        <!-- </div> -->
       </div>
       
       <div class="robot-img">
@@ -82,7 +95,8 @@
           <thead>
             <tr>
               <div>
-                <span style="color: purple;font-size: 20px; margin-left: 160px;" class=" font-weight-bold">PURPLE ROBOT</span>
+                <p style="color: purple;font-size: 20px; margin-left: 160px;" id="name_team_purple"></p>
+                <!-- <span style="color: purple;font-size: 20px; margin-left: 160px;" class=" font-weight-bold">PURPLE ROBOT</span> -->
                 <div class="" style="padding:10px"></div>
               </div>
             </tr>
@@ -92,11 +106,16 @@
               <th scope="row">Speed: </th>
               <span id="purple_vel"></span>
             </tr>
+            <tr>
+              Points: <input type="text" id="purple_points" value="0"/>
+              <!-- <span id="purple_points"></span> -->
+             </tr>
         </tbody>
         </table>
       </div>
 
     </div>
+
 
     <!-- <div class="sim-img">
       <canvas id="sim-img"></canvas>
@@ -204,12 +223,40 @@
     image.src = `data:image/png;base64,${msg.data}`;
   });
 
+
+
+
+  var stop_timer = 1;
   function match_event(str) {
+
     var msg = new ROSLIB.Message({
       data : str
     });
-    matchEventTopic.publish(msg);
+
+
+    if(str.localeCompare('start') == 0){
+    
+      stop_timer = 0;
+      var name_1 = prompt("Please enter Team name (Red Robot)", "Team Red");
+      var name_2 = prompt("Please enter Team name (Purple Robot)", "Team Purple");
+      if (name_1 != null) {
+            document.getElementById("name_team_red").innerHTML =  name_1;
+            document.getElementById("name_team_purple").innerHTML = name_2;
+      }
+    }
+
+    if(str.localeCompare('stop') == 0){
+     stop_timer = 1;
+    }
+    if(str.localeCompare('resume') == 0){
+     stop_timer = 0;
+    }
+    if(str.localeCompare('finish') == 0){
+      location.reload();
+    }
   }
+
+    matchEventTopic.publish(msg);
 
     // ROS Service example
     //function talk () {
@@ -225,56 +272,122 @@
 
 
 <script>
-  // Set the date we're counting down to
-  var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
-  var c_time = new Date().getTime();
-  var min_time = c_time;
+      var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+      var c_time = new Date().getTime();
+      var min_time = c_time;
 
-  var x = setInterval(function() {
+      var x = setInterval(function() {
+        if(stop_timer==1) { 
+            return; //stop_timer the execution of function
+        }
+        var d = new Date();
+        var n = d.getTime();
+        dis = n - min_time;
 
-    var d = new Date();
-    var n = d.getTime();
-    dis = n - min_time;
+        var minutes = Math.floor((dis % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((dis % (1000 * 60)) / 1000);
 
-    var minutes = Math.floor((dis % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((dis % (1000 * 60)) / 1000);
+        document.getElementById("counter_1").innerHTML = " + " +  minutes + ":" + seconds;
 
-    document.getElementById("counter_1").innerHTML = " + " +  minutes + ":" + seconds;
+        if (dis > 300000) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "TIMES UP";
+        }
 
-    if (dis > 300000) {
-      clearInterval(x);
-      document.getElementById("demo").innerHTML = "TIMES UP";
-    }
+      }, 1000);
 
-  }, 1000);
   </script>
 
 
   <script>
-  // Set the date we're counting down to
-  var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
-  var c_time = new Date().getTime();
-  var max_time = 300000 + c_time;
+      var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+      var c_time = new Date().getTime();
+      var max_time = 300000 + c_time;
 
-  var x = setInterval(function() {
+      var x = setInterval(function() {
+        if(stop_timer==1) { 
+            return; //stop_timer the execution of function
+        }
+        var d = new Date();
+        var n = d.getTime();
+        dis = max_time - n;
 
-    var d = new Date();
-    var n = d.getTime();
-    dis = max_time - n;
+        var minutes = Math.floor((dis % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((dis % (1000 * 60)) / 1000);
 
-    var minutes = Math.floor((dis % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((dis % (1000 * 60)) / 1000);
+        document.getElementById("counter_2").innerHTML = " - " +  minutes + ":" + seconds;
 
-    document.getElementById("counter_2").innerHTML = " - " +  minutes + ":" + seconds;
+        if (dis < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "TIMES UP";
+        }
 
-    if (dis < 0) {
-      clearInterval(x);
-      document.getElementById("demo").innerHTML = "TIMES UP";
-    }
-
-  }, 1000);
+      }, 1000);
 </script>
 
+<!-- POINTS -->
+<script>
+
+  function incrementRedPointsValue()
+  {
+      var value = parseInt(document.getElementById('red_points').value, 10);
+      value = isNaN(value) ? 0 : value;
+      value = value + 100;
+      document.getElementById('red_points').value = value;
+  }
+  function incrementPurplePointsValue()
+  {
+      var value = parseInt(document.getElementById('purple_points').value, 10);
+      value = isNaN(value) ? 0 : value;
+      value = value + 100;
+      document.getElementById('purple_points').value = value;
+  }
+  function decrementPurplePointsValue()
+  {
+      var value = parseInt(document.getElementById('purple_points').value, 10);
+      value = isNaN(value) ? 0 : value;
+      value = value - 100;
+      document.getElementById('purple_points').value = value;
+  }
+  function decrementRedPointsValue()
+  {
+      var value = parseInt(document.getElementById('red_points').value, 10);
+      value = isNaN(value) ? 0 : value;
+      value = value - 100;
+      document.getElementById('red_points').value = value;
+  }
+
+
+  // function setTeamsNames(){
+  //   var name_1 = prompt("Please enter Team name (Red Robot)", "Team Red");
+  //   var name_2 = prompt("Please enter Team name (Purple Robot)", "Team Purple");
+  //   // if (name_1 != null && name_2 != null) {
+  //         document.getElementById("name_team_red").innerHTML =  name_1;
+  //         document.getElementById("name_team_purple").innerHTML = name_2;
+  //   // }
+  // }
+
+
+
+</script>
+
+
+<!-- set teams name -->
+
+<script>
+
+function myFunction() {
+  var person = prompt("Please enter your name", "Harry Potter");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "! How are you today?";
+  }
+}
+
+
+
+
+</script>
 
 
 
