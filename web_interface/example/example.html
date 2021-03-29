@@ -253,6 +253,11 @@
     }
     if(str.localeCompare('finish') == 0){
       location.reload();
+      var red_points = parseInt(document.getElementById('red_points').value, 10);
+      var purple_points = parseInt(document.getElementById('purple_points').value, 10);
+      var team_name_red = String(document.getElementById("name_team_red").innerHTML);
+      var team_name_purple = String(document.getElementById("name_team_purple").innerHTML);
+      alert("Combat Results:\n" + team_name_red + ": " +  red_points + "\n" + team_name_purple + ": " + purple_points);
     }
   }
 
@@ -328,6 +333,7 @@
 <!-- POINTS -->
 <script>
 
+  
   function incrementRedPointsValue()
   {
       var value = parseInt(document.getElementById('red_points').value, 10);
