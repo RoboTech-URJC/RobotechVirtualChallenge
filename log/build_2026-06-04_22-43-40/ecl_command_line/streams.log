@@ -1,0 +1,68 @@
+[0.086s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_command_line': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/ecl/ecl_core/ecl_command_line -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line
+[0.142s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.601s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.625s] -- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[0.633s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[0.633s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.634s]   CMake.
+[0.634s] 
+[0.634s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.634s]   CMake that the project does not need compatibility with older versions.
+[0.634s] Call Stack (most recent call first):
+[0.635s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[0.636s]   CMakeLists.txt:13 (find_package)
+[0.637s] 
+[0.637s] [0m
+[0.842s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.885s] -- Configuring done (0.8s)
+[0.917s] -- Generating done (0.0s)
+[0.923s] -- Build files have been written to: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_command_line
+[0.930s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_command_line' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/ecl/ecl_core/ecl_command_line -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line
+[0.931s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_command_line': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_command_line -- -j16 -l16
+[1.531s] [100%] Built target ecl_demo_command_line
+[1.549s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_command_line' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_command_line -- -j16 -l16
+[1.550s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_command_line': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_command_line
+[1.572s] -- Install configuration: ""
+[1.572s] -- Execute custom install script
+[1.572s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/arg.hpp
+[1.572s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/arg_exception.hpp
+[1.572s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/cmd_line.hpp
+[1.572s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/cmd_line_interface.hpp
+[1.573s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/cmd_line_output.hpp
+[1.573s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/constraint.hpp
+[1.573s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/docbook_output.hpp
+[1.573s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/help_visitor.hpp
+[1.573s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/ignore_rest_visitor.hpp
+[1.573s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/multi_arg.hpp
+[1.573s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/multi_switch_arg.hpp
+[1.576s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/optional_unlabeled_tracker.hpp
+[1.576s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/std_output.hpp
+[1.577s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/switch_arg.hpp
+[1.577s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/unlabeled_multi_arg.hpp
+[1.577s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/unlabeled_value_arg.hpp
+[1.579s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/value_arg.hpp
+[1.579s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/values_constraint.hpp
+[1.579s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/version_visitor.hpp
+[1.579s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/visitor.hpp
+[1.580s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line/xor_handler.hpp
+[1.580s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include/ecl/command_line.hpp
+[1.580s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/lib/ecl_command_line/demo_command_line
+[1.580s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ament_index/resource_index/package_run_dependencies/ecl_command_line
+[1.580s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ament_index/resource_index/parent_prefix_path/ecl_command_line
+[1.580s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ecl_command_line/environment/ament_prefix_path.sh
+[1.580s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ecl_command_line/environment/ament_prefix_path.dsv
+[1.580s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ecl_command_line/environment/path.sh
+[1.580s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ecl_command_line/environment/path.dsv
+[1.581s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ecl_command_line/local_setup.bash
+[1.581s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ecl_command_line/local_setup.sh
+[1.581s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ecl_command_line/local_setup.zsh
+[1.581s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ecl_command_line/local_setup.dsv
+[1.581s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ecl_command_line/package.dsv
+[1.648s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ament_index/resource_index/packages/ecl_command_line
+[1.648s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ecl_command_line/cmake/ament_cmake_export_targets-extras.cmake
+[1.649s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ecl_command_line/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.650s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ecl_command_line/cmake/ecl_command_lineConfig.cmake
+[1.650s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ecl_command_line/cmake/ecl_command_lineConfig-version.cmake
+[1.650s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ecl_command_line/package.xml
+[1.650s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ecl_command_line/cmake/ecl_command_lineExport.cmake
+[1.720s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_command_line' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_command_line

@@ -1,0 +1,4 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/cmake/ecl_ipcExport.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/cmake/ecl_ipcExport-noconfig.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/lib/libecl_ipc.so.1.2.1
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/lib/libecl_ipc.so

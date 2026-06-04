@@ -1,0 +1,15 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core/share/ament_index/resource_index/package_run_dependencies/ecl_core
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core/share/ament_index/resource_index/parent_prefix_path/ecl_core
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core/share/ecl_core/environment/ament_prefix_path.sh
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core/share/ecl_core/environment/ament_prefix_path.dsv
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core/share/ecl_core/environment/path.sh
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core/share/ecl_core/environment/path.dsv
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core/share/ecl_core/local_setup.bash
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core/share/ecl_core/local_setup.sh
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core/share/ecl_core/local_setup.zsh
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core/share/ecl_core/local_setup.dsv
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core/share/ecl_core/package.dsv
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core/share/ament_index/resource_index/packages/ecl_core
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core/share/ecl_core/cmake/ecl_coreConfig.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core/share/ecl_core/cmake/ecl_coreConfig-version.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core/share/ecl_core/package.xml

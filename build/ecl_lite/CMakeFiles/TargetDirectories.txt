@@ -1,0 +1,9 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_lite/CMakeFiles/uninstall.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_lite/CMakeFiles/ecl_lite_uninstall.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_lite/CMakeFiles/test.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_lite/CMakeFiles/edit_cache.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_lite/CMakeFiles/rebuild_cache.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_lite/CMakeFiles/list_install_components.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_lite/CMakeFiles/install.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_lite/CMakeFiles/install/local.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_lite/CMakeFiles/install/strip.dir

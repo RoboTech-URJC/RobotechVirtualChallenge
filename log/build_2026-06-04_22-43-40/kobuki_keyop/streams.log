@@ -1,0 +1,58 @@
+[0.075s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_keyop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/kobuki_ros/kobuki_keyop -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop
+[0.134s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.621s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.638s] -- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[0.648s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[0.649s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.649s]   CMake.
+[0.649s] 
+[0.649s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.649s]   CMake that the project does not need compatibility with older versions.
+[0.649s] Call Stack (most recent call first):
+[0.649s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[0.649s]   CMakeLists.txt:5 (find_package)
+[0.649s] 
+[0.649s] [0m
+[0.656s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.732s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.756s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.787s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.824s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.907s] -- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/jazzy/share/kobuki_ros_interfaces/cmake)
+[1.049s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.125s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.132s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.259s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.334s] -- Found rclcpp_components: 28.1.18 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.463s] -- Configuring done (1.4s)
+[1.492s] -- Generating done (0.0s)
+[1.502s] -- Build files have been written to: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_keyop
+[1.556s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_keyop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/kobuki_ros/kobuki_keyop -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop
+[1.558s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_keyop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_keyop -- -j16 -l16
+[1.698s] [ 50%] Built target kobuki_keyop_node
+[1.698s] [100%] Built target kobuki_keyop
+[1.842s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_keyop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_keyop -- -j16 -l16
+[1.844s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_keyop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_keyop
+[1.855s] -- Install configuration: ""
+[1.855s] -- Execute custom install script
+[1.856s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/lib/kobuki_keyop/kobuki_keyop_node
+[1.856s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/lib/libkobuki_keyop.so
+[1.856s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/include/kobuki_keyop/keyop.hpp
+[1.857s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/share/kobuki_keyop/config/keyop_params.yaml
+[1.857s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/share/ament_index/resource_index/package_run_dependencies/kobuki_keyop
+[1.857s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/share/ament_index/resource_index/parent_prefix_path/kobuki_keyop
+[1.857s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/share/kobuki_keyop/environment/ament_prefix_path.sh
+[1.857s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/share/kobuki_keyop/environment/ament_prefix_path.dsv
+[1.858s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/share/kobuki_keyop/environment/path.sh
+[1.858s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/share/kobuki_keyop/environment/path.dsv
+[1.858s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/share/kobuki_keyop/local_setup.bash
+[1.860s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/share/kobuki_keyop/local_setup.sh
+[1.860s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/share/kobuki_keyop/local_setup.zsh
+[1.860s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/share/kobuki_keyop/local_setup.dsv
+[1.860s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/share/kobuki_keyop/package.dsv
+[1.867s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/share/ament_index/resource_index/packages/kobuki_keyop
+[1.868s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/share/ament_index/resource_index/rclcpp_components/kobuki_keyop
+[1.868s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/share/kobuki_keyop/cmake/kobuki_keyopConfig.cmake
+[1.868s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/share/kobuki_keyop/cmake/kobuki_keyopConfig-version.cmake
+[1.868s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_keyop/share/kobuki_keyop/package.xml
+[1.934s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_keyop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_keyop

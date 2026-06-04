@@ -1,0 +1,250 @@
+[0.253s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ros2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ros2_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup
+[0.388s] -- The C compiler identification is GNU 13.3.0
+[0.512s] -- The CXX compiler identification is GNU 13.3.0
+[0.553s] -- Detecting C compiler ABI info
+[0.657s] -- Detecting C compiler ABI info - done
+[0.664s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.665s] -- Detecting C compile features
+[0.665s] -- Detecting C compile features - done
+[0.674s] -- Detecting CXX compiler ABI info
+[0.785s] -- Detecting CXX compiler ABI info - done
+[0.804s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.805s] -- Detecting CXX compile features
+[0.805s] -- Detecting CXX compile features - done
+[0.845s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.048s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.139s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.325s] -- Configuring done (1.1s)
+[1.327s] -- Generating done (0.0s)
+[1.329s] -- Build files have been written to: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ros2_bringup
+[1.333s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ros2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ros2_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup
+[1.334s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ros2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ros2_bringup -- -j16 -l16
+[1.388s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ros2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ros2_bringup -- -j16 -l16
+[1.389s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ros2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ros2_bringup
+[1.397s] -- Install configuration: ""
+[1.398s] -- Execute custom install script
+[1.399s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/launch/kobuki_r1.launch.py
+[1.406s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/launch/kobuki_r2.launch.py
+[1.414s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/launch/kobuki_r3.launch.py
+[1.422s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/launch/sim_world.launch.py
+[1.435s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/GrannyAnnie.world
+[1.447s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/MISSING_ASSETS.md
+[1.460s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/RoCKIn@Home.sdf
+[1.474s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/among_us.world
+[1.492s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/maze.world
+[1.503s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/among_us_world/materials/textures/ceiling_tiled_111_203_172.jpg
+[1.518s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/among_us_world/materials/textures/ceiling_tiled_114_159_207.jpg
+[1.528s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/among_us_world/materials/textures/ceiling_tiled_117_80_123.jpg
+[1.539s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/among_us_world/materials/textures/ceiling_tiled_164_0_0.jpg
+[1.550s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/among_us_world/materials/textures/ceiling_tiled_173_127_168.jpg
+[1.560s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/among_us_world/materials/textures/ceiling_tiled_237_212_0.jpg
+[1.571s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/among_us_world/materials/textures/ceiling_tiled_254_121_5.jpg
+[1.581s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/among_us_world/materials/textures/ceiling_tiled_255_195_78.jpg
+[1.591s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/among_us_world/materials/textures/ceiling_tiled_255_255_255.jpg
+[1.601s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/among_us_world/materials/textures/ceiling_tiled_32_74_135.jpg
+[1.611s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/among_us_world/materials/textures/ceiling_tiled_46_52_54.jpg
+[1.621s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/among_us_world/materials/textures/ceiling_tiled_85_87_83.jpg
+[1.632s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/among_us_world/materials/textures/ceiling_tiled_92_53_102.jpg
+[1.641s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/among_us_world/materials/textures/legacy_wood.jpg
+[1.653s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/among_us_world/materials/textures/motorway_32_74_135.jpg
+[1.667s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/among_us_world/materials/textures/robotech_lab_picture.jpg
+[1.678s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/among_us_world/model.config
+[1.692s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/among_us_world/model.sdf
+[1.712s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/asphalt_plane/materials/scripts/asphalt.material
+[1.733s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/asphalt_plane/materials/textures/tarmac.png
+[1.747s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/asphalt_plane/model-1_4.sdf
+[1.759s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/asphalt_plane/model.config
+[1.767s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/asphalt_plane/model.sdf
+[1.777s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/asphalt_plane/thumbnails/1.png
+[1.788s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/asphalt_plane/thumbnails/2.png
+[1.798s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/asphalt_plane/thumbnails/3.png
+[1.807s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/asphalt_plane/thumbnails/4.png
+[1.816s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/asphalt_plane/thumbnails/5.png
+[1.826s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/bed/model.config
+[1.835s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/bed/model.sdf
+[1.845s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/cafe_table/materials/textures/Maple.jpg
+[1.856s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/cafe_table/materials/textures/Wood_Floor_Dark.jpg
+[1.869s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/cafe_table/meshes/cafe_table.dae
+[1.879s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/cafe_table/model-1_4.sdf
+[1.886s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/cafe_table/model.config
+[1.895s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/cafe_table/model.sdf
+[1.904s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/cafe_table/thumbnails/1.png
+[1.919s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/cafe_table/thumbnails/2.png
+[1.933s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/cafe_table/thumbnails/3.png
+[1.944s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/cafe_table/thumbnails/4.png
+[1.953s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/cafe_table/thumbnails/5.png
+[1.963s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/circuitoMontmelo/materials/scripts/asphalt.material
+[1.972s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/circuitoMontmelo/materials/textures/tarmac.png
+[1.981s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/circuitoMontmelo/model.config
+[1.990s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/circuitoMontmelo/model.sdf
+[2.001s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_barrel/materials/textures/Construction_Barrel_Diffuse.png
+[2.011s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_barrel/materials/textures/Construction_Barrel_Spec.png
+[2.018s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_barrel/meshes/construction_barrel.dae
+[2.028s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_barrel/model-1_3.sdf
+[2.038s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_barrel/model-1_4.sdf
+[2.047s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_barrel/model.config
+[2.056s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_barrel/model.sdf
+[2.065s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_barrel/thumbnails/1.png
+[2.077s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_barrel/thumbnails/2.png
+[2.094s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_barrel/thumbnails/3.png
+[2.112s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_barrel/thumbnails/4.png
+[2.124s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_barrel/thumbnails/5.png
+[2.133s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_cone/materials/textures/Construction_Cone_Diffuse.png
+[2.142s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_cone/meshes/construction_cone.dae
+[2.150s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_cone/model-1_3.sdf
+[2.166s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_cone/model-1_4.sdf
+[2.180s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_cone/model.config
+[2.194s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_cone/model.sdf
+[2.202s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_cone/thumbnails/1.png
+[2.210s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_cone/thumbnails/2.png
+[2.219s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_cone/thumbnails/3.png
+[2.228s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_cone/thumbnails/4.png
+[2.236s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/construction_cone/thumbnails/5.png
+[2.247s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/control_console/materials/textures/console.png
+[2.256s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/control_console/materials/textures/light.png
+[2.265s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/control_console/meshes/console.dae
+[2.274s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/control_console/model.config
+[2.286s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/control_console/model.sdf
+[2.295s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/control_console/thumbnails/1.png
+[2.304s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/control_console/thumbnails/2.png
+[2.312s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/control_console/thumbnails/3.png
+[2.320s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/control_console/thumbnails/4.png
+[2.327s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/control_console/thumbnails/5.png
+[2.335s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae
+[2.344s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/drc_practice_orange_jersey_barrier/model-1_4.sdf
+[2.354s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/drc_practice_orange_jersey_barrier/model.config
+[2.363s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/drc_practice_orange_jersey_barrier/model.sdf
+[2.372s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/drc_practice_orange_jersey_barrier/thumbnails/1.png
+[2.381s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/drc_practice_orange_jersey_barrier/thumbnails/2.png
+[2.390s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/drc_practice_orange_jersey_barrier/thumbnails/3.png
+[2.398s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/drc_practice_orange_jersey_barrier/thumbnails/4.png
+[2.405s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/drc_practice_orange_jersey_barrier/thumbnails/5.png
+[2.413s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae
+[2.420s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/drc_practice_white_jersey_barrier/model-1_4.sdf
+[2.429s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/drc_practice_white_jersey_barrier/model.config
+[2.437s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/drc_practice_white_jersey_barrier/model.sdf
+[2.445s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/drc_practice_white_jersey_barrier/thumbnails/1.png
+[2.454s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/drc_practice_white_jersey_barrier/thumbnails/2.png
+[2.462s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/drc_practice_white_jersey_barrier/thumbnails/3.png
+[2.469s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/drc_practice_white_jersey_barrier/thumbnails/4.png
+[2.476s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/drc_practice_white_jersey_barrier/thumbnails/5.png
+[2.483s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/euro_pallet/meshes/pallet.dae
+[2.490s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/euro_pallet/model.config
+[2.497s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/euro_pallet/model.sdf
+[2.504s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/euro_pallet/thumbnails/1.png
+[2.511s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/euro_pallet/thumbnails/2.png
+[2.517s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/euro_pallet/thumbnails/3.png
+[2.525s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/euro_pallet/thumbnails/4.png
+[2.534s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/euro_pallet/thumbnails/5.png
+[2.543s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/fire_hydrant/materials/textures/fire_hydrant_diffuse.png
+[2.552s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/fire_hydrant/materials/textures/fire_hydrant_spec.png
+[2.562s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/fire_hydrant/meshes/fire_hydrant.dae
+[2.570s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/fire_hydrant/model-1_4.sdf
+[2.577s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/fire_hydrant/model.config
+[2.584s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/fire_hydrant/model.sdf
+[2.591s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/fire_hydrant/thumbnails/1.png
+[2.598s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/fire_hydrant/thumbnails/2.png
+[2.605s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/fire_hydrant/thumbnails/3.png
+[2.612s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/fire_hydrant/thumbnails/4.png
+[2.619s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/fire_hydrant/thumbnails/5.png
+[2.626s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/first_2015_trash_can/meshes/trash_can.dae
+[2.633s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/first_2015_trash_can/model.config
+[2.639s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/first_2015_trash_can/model.sdf
+[2.647s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/first_2015_trash_can/thumbnails/1.png
+[2.655s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/first_2015_trash_can/thumbnails/2.png
+[2.662s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/first_2015_trash_can/thumbnails/3.png
+[2.669s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/first_2015_trash_can/thumbnails/4.png
+[2.676s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/first_2015_trash_can/thumbnails/5.png
+[2.683s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/mars_rover/materials/textures/rover.png
+[2.690s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/mars_rover/meshes/rover.dae
+[2.697s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/mars_rover/model.config
+[2.704s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/mars_rover/model.sdf
+[2.712s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/mars_rover/thumbnails/1.png
+[2.719s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/mars_rover/thumbnails/2.png
+[2.726s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/mars_rover/thumbnails/3.png
+[2.734s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/mars_rover/thumbnails/4.png
+[2.742s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/mars_rover/thumbnails/5.png
+[2.750s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/nist_maze_wall_120/materials/textures/plywood256x256.png
+[2.759s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/nist_maze_wall_120/meshes/nist_maze_wall_120.dae
+[2.766s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/nist_maze_wall_120/model-1_2.sdf
+[2.773s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/nist_maze_wall_120/model-1_3.sdf
+[2.781s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/nist_maze_wall_120/model-1_4.sdf
+[2.788s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/nist_maze_wall_120/model.config
+[2.797s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/nist_maze_wall_120/model.sdf
+[2.805s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/nist_maze_wall_120/thumbnails/1.png
+[2.811s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/nist_maze_wall_120/thumbnails/2.png
+[2.818s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/nist_maze_wall_120/thumbnails/3.png
+[2.825s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/nist_maze_wall_120/thumbnails/4.png
+[2.832s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/nist_maze_wall_120/thumbnails/5.png
+[2.839s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/orange_cylinder/model.config
+[2.846s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/orange_cylinder/model.sdf
+[2.854s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/paredesMontmelo/model.config
+[2.861s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/paredesMontmelo/model.sdf
+[2.868s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/ramp/model.config
+[2.874s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/ramp/model.sdf
+[2.880s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/ramp2/model.config
+[2.887s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/ramp2/model.sdf
+[2.893s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/robocup09_spl_field/materials/scripts/robocup09_spl_field.material
+[2.900s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/robocup09_spl_field/materials/textures/carpet.jpg
+[2.907s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/robocup09_spl_field/materials/textures/net.png
+[2.913s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/robocup09_spl_field/meshes/circle.dae
+[2.920s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/robocup09_spl_field/meshes/triangle.dae
+[2.926s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/robocup09_spl_field/model-1_4.sdf
+[2.933s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/robocup09_spl_field/model.config
+[2.939s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/robocup09_spl_field/model.sdf
+[2.947s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/robocup09_spl_field/thumbnails/1.png
+[2.955s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/robocup09_spl_field/thumbnails/2.png
+[2.962s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/robocup09_spl_field/thumbnails/3.png
+[2.968s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/robocup09_spl_field/thumbnails/4.png
+[2.975s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/robocup09_spl_field/thumbnails/5.png
+[2.981s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/robotech_vc_maze/model.config
+[2.988s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/robotech_vc_maze/model.sdf
+[2.994s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/sumo_arena/materials/scripts/sumo.material
+[3.001s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/sumo_arena/materials/textures/sumo_carpet_2.png
+[3.007s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/sumo_arena/model.config
+[3.013s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/models/sumo_arena/model.sdf
+[3.020s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/montmelo.world
+[3.027s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robocuplab.world
+[3.033s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robocupspl.world
+[3.039s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge.before_asphalt_grid_4x5.world
+[3.047s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge.before_asphalt_grid_6x6.world
+[3.055s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge.before_asphalt_grid_8x8.world
+[3.062s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge.before_collision_spacing_picture_clock.world
+[3.069s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge.before_dark_blue_motorway_tarmac.world
+[3.075s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge.before_floor_reduce_and_picture.world
+[3.082s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge.before_picture_internal_plane.world
+[3.089s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge.before_remove_start_markers.world
+[3.096s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge.before_room_color_consistency.world
+[3.102s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge.before_standard_world_plugins.world
+[3.109s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge.before_static_props_picture_box.world
+[3.115s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge.before_switch_to_converted.world
+[3.122s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge.before_wall_color_comments.world
+[3.128s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge.before_wall_palette_tune.world
+[3.134s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge.before_world_sensors_plugin.world
+[3.141s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge.world
+[3.149s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge_harmonic.before_asphalt_grid.world
+[3.156s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge_harmonic.before_field_walls_pbr.world
+[3.164s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge_harmonic.before_furniture_goal_pbr.world
+[3.170s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge_harmonic.before_pbr_single_floor.world
+[3.176s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge_harmonic.before_single_floor.world
+[3.183s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge_harmonic.before_texture_collision_tune.world
+[3.189s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge_harmonic.before_wall_furniture_textures.world
+[3.196s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge_harmonic.world
+[3.202s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/robotech_virtual_challenge_old.world
+[3.209s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/worlds/sumo.world
+[3.216s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ament_index/resource_index/package_run_dependencies/ros2_bringup
+[3.223s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ament_index/resource_index/parent_prefix_path/ros2_bringup
+[3.230s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/environment/ament_prefix_path.sh
+[3.237s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/environment/ament_prefix_path.dsv
+[3.243s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/environment/path.sh
+[3.252s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/environment/path.dsv
+[3.259s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/local_setup.bash
+[3.266s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/local_setup.sh
+[3.272s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/local_setup.zsh
+[3.278s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/local_setup.dsv
+[3.285s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/package.dsv
+[3.292s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ament_index/resource_index/packages/ros2_bringup
+[3.298s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/cmake/ros2_bringupConfig.cmake
+[3.304s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/cmake/ros2_bringupConfig-version.cmake
+[3.311s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ros2_bringup/share/ros2_bringup/package.xml
+[3.318s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ros2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ros2_bringup

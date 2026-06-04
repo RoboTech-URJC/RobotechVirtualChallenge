@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_safety_controller/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

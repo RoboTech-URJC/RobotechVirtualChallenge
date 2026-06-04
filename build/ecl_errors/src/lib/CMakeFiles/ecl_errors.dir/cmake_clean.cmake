@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  ".1.2.0"
+  "CMakeFiles/ecl_errors.dir/run_time_functions.cpp.o"
+  "CMakeFiles/ecl_errors.dir/run_time_functions.cpp.o.d"
+  "libecl_errors.pdb"
+  "libecl_errors.so"
+  "libecl_errors.so.1.2.0"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/ecl_errors.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

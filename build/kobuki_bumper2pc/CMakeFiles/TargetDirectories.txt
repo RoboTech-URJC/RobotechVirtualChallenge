@@ -1,0 +1,11 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc/CMakeFiles/uninstall.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc/CMakeFiles/kobuki_bumper2pc_uninstall.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc/CMakeFiles/kobuki_bumper2pc.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc/CMakeFiles/kobuki_bumper2pc_node.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc/CMakeFiles/test.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc/CMakeFiles/edit_cache.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc/CMakeFiles/rebuild_cache.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc/CMakeFiles/list_install_components.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc/CMakeFiles/install.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc/CMakeFiles/install/local.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc/CMakeFiles/install/strip.dir

@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_config/include/ecl/config/ecl.hpp

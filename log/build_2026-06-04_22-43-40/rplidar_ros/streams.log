@@ -1,0 +1,71 @@
+[0.060s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros
+[1.033s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.034s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.034s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.034s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.035s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.035s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.036s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.036s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.036s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.037s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.199s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.286s] -- Found std_srvs: 5.3.7 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.501s] -- Configuring done (1.4s)
+[1.588s] -- Generating done (0.0s)
+[1.600s] -- Build files have been written to: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/rplidar_ros
+[1.712s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros
+[1.713s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/rplidar_ros -- -j16 -l16
+[1.790s] [  5%] Built target rplidar_client
+[1.808s] [ 52%] Built target rplidar_composition
+[1.811s] [100%] Built target rplidar_node
+[1.943s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/rplidar_ros -- -j16 -l16
+[1.944s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/rplidar_ros
+[1.970s] -- Install configuration: ""
+[1.970s] -- Execute custom install script
+[1.970s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[1.970s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[1.970s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[1.971s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[1.971s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[1.972s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[1.973s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[1.973s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[1.973s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[1.973s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[1.973s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[1.973s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[1.973s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[1.973s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[1.973s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[1.973s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[1.974s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[1.974s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[1.974s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[1.974s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[1.974s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[1.974s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[1.974s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[1.975s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[1.976s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[1.976s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[1.976s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[1.976s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[1.977s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[1.977s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[1.977s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[1.977s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[1.977s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[1.977s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[1.977s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[1.977s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[1.977s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[1.978s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[1.978s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/package.dsv
+[1.978s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[1.978s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.978s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.978s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[1.979s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[1.980s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/rplidar_ros/share/rplidar_ros/package.xml
+[2.054s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/rplidar_ros

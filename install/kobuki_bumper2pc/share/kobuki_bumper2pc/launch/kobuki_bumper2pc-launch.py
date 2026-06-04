@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/kobuki_ros/kobuki_bumper2pc/launch/kobuki_bumper2pc-launch.py

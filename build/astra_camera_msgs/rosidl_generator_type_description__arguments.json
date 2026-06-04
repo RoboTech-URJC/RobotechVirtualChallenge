@@ -1,0 +1,22 @@
+{
+  "package_name": "astra_camera_msgs",
+  "output_dir": "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/astra_camera_msgs/rosidl_generator_type_description/astra_camera_msgs",
+  "idl_tuples": [
+    "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/DeviceInfo.idl",
+    "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/Extrinsics.idl",
+    "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/Metadata.idl",
+    "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetDeviceInfo.idl",
+    "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetCameraInfo.idl",
+    "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetCameraParams.idl",
+    "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetInt32.idl",
+    "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetString.idl",
+    "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/SetInt32.idl"
+  ],
+  "include_paths": [
+    "sensor_msgs:/opt/ros/jazzy/share/sensor_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

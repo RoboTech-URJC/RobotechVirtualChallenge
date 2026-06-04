@@ -1,0 +1,62 @@
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+-- Found ecl_config: 1.2.0 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_config/share/ecl_config/cmake)
+-- Found ecl_linear_algebra: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/cmake)
+-- Found AMD headers in: /usr/include/suitesparse
+-- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+-- Found CAMD headers in: /usr/include/suitesparse
+-- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+-- Found CCOLAMD headers in: /usr/include/suitesparse
+-- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+-- Found CHOLMOD headers in: /usr/include/suitesparse
+-- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+-- Found COLAMD headers in: /usr/include/suitesparse
+-- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+-- Found SPQR headers in: /usr/include/suitesparse
+-- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+-- Found Config headers in: /usr/include/suitesparse
+-- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+-- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_statistics
+[ 20%] Built target gtest_main
+[ 40%] Built target gtest
+[ 60%] Built target ecl_statistics
+[ 80%] Built target ecl_test_cumulative_statistics
+[100%] Built target ecl_test_covariance_ellipsoids
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/include/ecl/statistics/covariance_ellipsoid.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/include/ecl/statistics/cumulative_statistics.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/include/ecl/statistics.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/environment/library_path.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/environment/library_path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ament_index/resource_index/package_run_dependencies/ecl_statistics
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ament_index/resource_index/parent_prefix_path/ecl_statistics
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/environment/path.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/environment/path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/local_setup.bash
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/local_setup.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/local_setup.zsh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/local_setup.dsv
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/package.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ament_index/resource_index/packages/ecl_statistics
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/cmake/ecl_statisticsConfig.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/cmake/ecl_statisticsConfig-version.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/package.xml
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/cmake/ecl_statisticsExport.cmake
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/cmake/ecl_statisticsExport-noconfig.cmake
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/lib/libecl_statistics.so.1.2.1
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/lib/libecl_statistics.so

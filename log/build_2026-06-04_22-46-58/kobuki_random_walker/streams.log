@@ -1,0 +1,55 @@
+[0.090s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_random_walker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/kobuki_ros/kobuki_random_walker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker
+[0.167s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.584s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.605s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.675s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.695s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.728s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.762s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.865s] -- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/jazzy/share/kobuki_ros_interfaces/cmake)
+[1.029s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.114s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.123s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.248s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.391s] -- Found rclcpp_components: 28.1.18 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.542s] -- Configuring done (1.4s)
+[1.559s] -- Generating done (0.0s)
+[1.567s] -- Build files have been written to: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_random_walker
+[1.579s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_random_walker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/kobuki_ros/kobuki_random_walker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker
+[1.583s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_random_walker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_random_walker -- -j16 -l16
+[1.735s] [ 50%] Built target kobuki_random_walker
+[1.736s] [100%] Built target kobuki_random_walker_node
+[1.827s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_random_walker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_random_walker -- -j16 -l16
+[1.828s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_random_walker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_random_walker
+[1.894s] -- Install configuration: ""
+[1.895s] -- Execute custom install script
+[1.895s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/lib/kobuki_random_walker/kobuki_random_walker_node
+[1.895s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/include/kobuki_random_walker/random_walker.hpp
+[1.895s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/launch/random_walker_app.launch
+[1.895s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/launch/safe_random_walker_app.launch
+[1.895s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/launch/standalone.launch
+[1.896s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/environment/library_path.sh
+[1.896s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/environment/library_path.dsv
+[1.896s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/ament_index/resource_index/package_run_dependencies/kobuki_random_walker
+[1.896s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/ament_index/resource_index/parent_prefix_path/kobuki_random_walker
+[1.896s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/environment/ament_prefix_path.sh
+[1.896s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/environment/ament_prefix_path.dsv
+[1.896s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/environment/path.sh
+[1.897s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/environment/path.dsv
+[1.897s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.bash
+[1.897s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.sh
+[1.897s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.zsh
+[1.897s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.dsv
+[1.897s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/package.dsv
+[1.897s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/ament_index/resource_index/packages/kobuki_random_walker
+[1.898s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/ament_index/resource_index/rclcpp_components/kobuki_random_walker
+[1.898s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.898s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/cmake/ament_cmake_export_libraries-extras.cmake
+[1.898s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/cmake/ament_cmake_export_targets-extras.cmake
+[1.898s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/cmake/kobuki_random_walkerConfig.cmake
+[1.898s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/cmake/kobuki_random_walkerConfig-version.cmake
+[1.899s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/package.xml
+[1.899s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/lib/libkobuki_random_walker.so
+[1.899s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/cmake/kobuki_random_walkerExport.cmake
+[1.899s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/cmake/kobuki_random_walkerExport-noconfig.cmake
+[1.930s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_random_walker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_random_walker

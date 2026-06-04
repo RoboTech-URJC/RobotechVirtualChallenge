@@ -1,0 +1,4 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_geometry/share/ecl_geometry/cmake/ecl_geometryExport.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_geometry/share/ecl_geometry/cmake/ecl_geometryExport-noconfig.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_geometry/lib/libecl_geometry.so.1.2.1
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_geometry/lib/libecl_geometry.so

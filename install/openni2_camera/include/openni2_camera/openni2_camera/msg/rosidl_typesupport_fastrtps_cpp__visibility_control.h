@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/openni2_camera/rosidl_typesupport_fastrtps_cpp/openni2_camera/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

@@ -1,0 +1,4 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/cmake/ecl_statisticsExport.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/share/ecl_statistics/cmake/ecl_statisticsExport-noconfig.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/lib/libecl_statistics.so.1.2.1
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_statistics/lib/libecl_statistics.so

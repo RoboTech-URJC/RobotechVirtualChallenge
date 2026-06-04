@@ -1,0 +1,3 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/lib/libkobuki_safety_controller.so
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/kobuki_safety_controllerExport.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/kobuki_safety_controllerExport-noconfig.cmake

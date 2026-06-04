@@ -1,0 +1,62 @@
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+  CMakeLists.txt:17 (find_package)
+
+[0m
+-- Found ecl_config: 1.2.0 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_config/share/ecl_config/cmake)
+-- Found ecl_errors: 1.2.0 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_errors/share/ecl_errors/cmake)
+-- Found ecl_time_lite: 1.2.0 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_time_lite/share/ecl_time_lite/cmake)
+-- Found ecl_exceptions: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_exceptions/share/ecl_exceptions/cmake)
+-- Found ecl_threads: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/cmake)
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_ipc
+[ 15%] Built target gtest
+[ 30%] Built target gtest_main
+[ 53%] Built target ecl_ipc
+[ 69%] Built target ecl_test_semaphores
+[ 84%] Built target ecl_test_semaphores_timed
+[100%] Built target ecl_test_shared_memory
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/include/ecl/ipc/semaphore.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/include/ecl/ipc/semaphore_pos.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/include/ecl/ipc/shared_memory.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/include/ecl/ipc/shared_memory_pos.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/include/ecl/ipc.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/environment/library_path.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/environment/library_path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ament_index/resource_index/package_run_dependencies/ecl_ipc
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ament_index/resource_index/parent_prefix_path/ecl_ipc
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/environment/path.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/environment/path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/local_setup.bash
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/local_setup.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/local_setup.zsh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/local_setup.dsv
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/package.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ament_index/resource_index/packages/ecl_ipc
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/cmake/ecl_ipcConfig.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/cmake/ecl_ipcConfig-version.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/package.xml
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/cmake/ecl_ipcExport.cmake
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/cmake/ecl_ipcExport-noconfig.cmake
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/lib/libecl_ipc.so.1.2.1
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/lib/libecl_ipc.so

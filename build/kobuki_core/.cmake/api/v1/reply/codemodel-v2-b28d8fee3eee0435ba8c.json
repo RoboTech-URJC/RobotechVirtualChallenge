@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c66d3364fb79fe947753.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						11,
+						12
+					]
+				},
+				{
+					"build" : "include",
+					"jsonFile" : "directory-include-7ead17b99bffc88b66bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include"
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/driver",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.driver-f54fd334d9689f65f6e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/driver",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/demos",
+					"jsonFile" : "directory-src.demos-1501e4e83cf1b5293098.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/demos",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "src/tools",
+					"jsonFile" : "directory-src.tools-45cf6c62ebae9991927b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/tools",
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "kobuki_core",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "kobuki_core::@49e83f50c4c71b496537",
+					"jsonFile" : "target-kobuki_core-71ec48b6bbbb94c2c361.json",
+					"name" : "kobuki_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_buttons::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_buttons-0a4eb78aed5337926cc6.json",
+					"name" : "kobuki_core_demo_buttons",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_chirp::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_chirp-fc2f1404747f3bc22fb7.json",
+					"name" : "kobuki_core_demo_chirp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_custom_logging::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_custom_logging-3e2fa1e1c472086b41dd.json",
+					"name" : "kobuki_core_demo_custom_logging",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_data_stream::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_data_stream-01a71cf4b1c6d873c75b.json",
+					"name" : "kobuki_core_demo_data_stream",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_log_levels::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_log_levels-331d505474a15ec07531.json",
+					"name" : "kobuki_core_demo_log_levels",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_raw_data_stream::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_raw_data_stream-3a65f969bf93a228f20d.json",
+					"name" : "kobuki_core_demo_raw_data_stream",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_simple_loop::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_simple_loop-9bb57f94169781b3d324.json",
+					"name" : "kobuki_core_demo_simple_loop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_velocity_commands::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_velocity_commands-fa38e4e0043d9c040fda.json",
+					"name" : "kobuki_core_demo_velocity_commands",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "kobuki_core_tool_simple_keyop::@de05559f4338c8534979",
+					"jsonFile" : "target-kobuki_core_tool_simple_keyop-0459187d75e99dfd9edf.json",
+					"name" : "kobuki_core_tool_simple_keyop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "kobuki_core_tool_version_info::@de05559f4338c8534979",
+					"jsonFile" : "target-kobuki_core_tool_version_info-eb1714e032f1d5fe5b47.json",
+					"name" : "kobuki_core_tool_version_info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_core_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_core_uninstall-1aa8f461d81ead6eb2ae.json",
+					"name" : "kobuki_core_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bffd1d8f1a4da24a09bd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_core",
+		"source" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/kobuki_core"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

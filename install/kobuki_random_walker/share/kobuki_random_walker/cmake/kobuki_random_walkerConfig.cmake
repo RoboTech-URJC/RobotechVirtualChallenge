@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_random_walker/ament_cmake_core/kobuki_random_walkerConfig.cmake

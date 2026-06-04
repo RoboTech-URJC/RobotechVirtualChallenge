@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplExport.cmake

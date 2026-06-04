@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ros2_bringup/ament_cmake_core/ros2_bringupConfig-version.cmake

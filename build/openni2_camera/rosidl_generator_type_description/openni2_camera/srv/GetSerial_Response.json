@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "openni2_camera/srv/GetSerial_Response",
+      "fields": [
+        {
+          "name": "serial",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "openni2_camera/srv/GetSerial_Response",
+      "hash_string": "RIHS01_806eb9c6f99bef8a7ad22b9d4d0407e3fe483ead21a08495a3e8beea22ee9ced"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+[ 41%] Built target kobuki_core
+[ 47%] Built target kobuki_core_demo_buttons
+[ 52%] Built target kobuki_core_demo_chirp
+[ 58%] Built target kobuki_core_demo_velocity_commands
+[ 64%] Built target kobuki_core_demo_custom_logging
+[ 70%] Built target kobuki_core_demo_raw_data_stream
+[ 76%] Built target kobuki_core_demo_data_stream
+[ 82%] Built target kobuki_core_demo_simple_loop
+[ 88%] Built target kobuki_core_demo_log_levels
+[ 94%] Built target kobuki_core_tool_simple_keyop
+[100%] Built target kobuki_core_tool_version_info
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/command.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/dock_drive.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/event_manager.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/kobuki.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/logging.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/macros.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/acceleration_limiter.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/battery.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/diff_drive.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/digital_output.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/led_array.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/sound.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packet_handler/packet_finder.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packet_handler/payload_base.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packet_handler/payload_headers.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/cliff.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/controller_info.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/core_sensors.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/current.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/dock_ir.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/eeprom.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/firmware.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/gp_input.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/hardware.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/inertia.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/three_axis_gyro.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/unique_device_id.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/parameters.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/version_info.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/kobuki_core/demo_buttons
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/kobuki_core/demo_chirp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/kobuki_core/demo_custom_logging
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/kobuki_core/demo_data_stream
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/kobuki_core/demo_log_levels
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/kobuki_core/demo_raw_data_stream
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/kobuki_core/demo_simple_loop
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/kobuki_core/demo_velocity_commands
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/bin/kobuki-version-info
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/bin/kobuki-simple-keyop
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/CMakeLists.txt
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/command.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/dock_drive.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/event_manager.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/kobuki.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/logging.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/macros.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/acceleration_limiter.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/battery.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/diff_drive.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/digital_output.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/led_array.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/sound.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packet_handler/packet_finder.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packet_handler/payload_base.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packet_handler/payload_headers.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/cliff.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/controller_info.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/core_sensors.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/current.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/dock_ir.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/eeprom.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/firmware.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/gp_input.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/hardware.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/inertia.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/three_axis_gyro.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/unique_device_id.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/parameters.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/version_info.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/environment/library_path.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/environment/library_path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/ament_index/resource_index/package_run_dependencies/kobuki_core
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/ament_index/resource_index/parent_prefix_path/kobuki_core
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/environment/path.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/environment/path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/local_setup.bash
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/local_setup.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/local_setup.zsh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/local_setup.dsv
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/package.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/ament_index/resource_index/packages/kobuki_core
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreConfig.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreConfig-version.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/package.xml
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreExport.cmake
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreExport-noconfig.cmake
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/libkobuki_core.so.1.4.0
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/libkobuki_core.so

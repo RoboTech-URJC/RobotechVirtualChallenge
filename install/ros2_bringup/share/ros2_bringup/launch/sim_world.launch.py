@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ros2_bringup/launch/sim_world.launch.py

@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/rplidar_ros/launch/rplidar_a2m12_launch.py

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_formatters/src/examples/demo_formatters" "TARGETS" "ecl_demo_formatters" "RUNTIME_DESTINATION" "lib/ecl_formatters")

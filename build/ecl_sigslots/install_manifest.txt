@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_sigslots/share/ecl_sigslots/cmake/ecl_sigslotsExport.cmake

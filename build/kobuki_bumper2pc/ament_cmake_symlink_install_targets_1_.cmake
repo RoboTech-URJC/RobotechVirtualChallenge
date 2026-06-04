@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc/libkobuki_bumper2pc.so" "TARGETS" "kobuki_bumper2pc" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

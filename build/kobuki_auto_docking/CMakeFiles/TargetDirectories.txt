@@ -1,0 +1,11 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_auto_docking/CMakeFiles/uninstall.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_auto_docking/CMakeFiles/kobuki_auto_docking_uninstall.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_auto_docking/CMakeFiles/kobuki_auto_docking.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_auto_docking/CMakeFiles/kobuki_auto_docking_node.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_auto_docking/CMakeFiles/test.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_auto_docking/CMakeFiles/edit_cache.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_auto_docking/CMakeFiles/rebuild_cache.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_auto_docking/CMakeFiles/list_install_components.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_auto_docking/CMakeFiles/install.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_auto_docking/CMakeFiles/install/local.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_auto_docking/CMakeFiles/install/strip.dir

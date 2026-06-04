@@ -1,0 +1,4 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_devices/share/ecl_devices/cmake/ecl_devicesExport.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_devices/share/ecl_devices/cmake/ecl_devicesExport-noconfig.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_devices/lib/libecl_devices.so.1.2.1
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_devices/lib/libecl_devices.so

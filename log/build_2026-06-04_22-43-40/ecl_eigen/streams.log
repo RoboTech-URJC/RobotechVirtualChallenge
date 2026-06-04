@@ -1,0 +1,34 @@
+[0.090s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_eigen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/ecl/ecl_core/ecl_eigen -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen
+[0.148s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.633s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.871s] -- Configuring done (0.8s)
+[0.884s] -- Generating done (0.0s)
+[0.890s] -- Build files have been written to: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_eigen
+[0.896s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_eigen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/ecl/ecl_core/ecl_eigen -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen
+[0.898s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_eigen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_eigen -- -j16 -l16
+[1.542s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_eigen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_eigen -- -j16 -l16
+[1.554s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_eigen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_eigen
+[1.573s] -- Install configuration: ""
+[1.573s] -- Execute custom install script
+[1.573s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/include/ecl/eigen.hpp
+[1.574s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/licenses/eigen/COPYING.LESSER
+[1.574s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ament_index/resource_index/package_run_dependencies/ecl_eigen
+[1.574s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ament_index/resource_index/parent_prefix_path/ecl_eigen
+[1.574s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ecl_eigen/environment/ament_prefix_path.sh
+[1.574s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ecl_eigen/environment/ament_prefix_path.dsv
+[1.575s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ecl_eigen/environment/path.sh
+[1.575s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ecl_eigen/environment/path.dsv
+[1.575s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ecl_eigen/local_setup.bash
+[1.575s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ecl_eigen/local_setup.sh
+[1.575s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ecl_eigen/local_setup.zsh
+[1.575s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ecl_eigen/local_setup.dsv
+[1.575s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ecl_eigen/package.dsv
+[1.590s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ament_index/resource_index/packages/ecl_eigen
+[1.590s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ecl_eigen/cmake/ament_cmake_export_targets-extras.cmake
+[1.590s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ecl_eigen/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.591s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ecl_eigen/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.591s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ecl_eigen/cmake/ecl_eigenConfig.cmake
+[1.592s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ecl_eigen/cmake/ecl_eigenConfig-version.cmake
+[1.592s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ecl_eigen/package.xml
+[1.592s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ecl_eigen/cmake/ecl_eigenExport.cmake
+[1.601s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_eigen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_eigen

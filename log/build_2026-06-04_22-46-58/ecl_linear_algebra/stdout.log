@@ -1,0 +1,76 @@
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+-- Found ecl_eigen: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/share/ecl_eigen/cmake)
+-- Found ecl_exceptions: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_exceptions/share/ecl_exceptions/cmake)
+-- Found ecl_formatters: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_formatters/share/ecl_formatters/cmake)
+-- Found ecl_math: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_math/share/ecl_math/cmake)
+-- Found AMD headers in: /usr/include/suitesparse
+-- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+-- Found CAMD headers in: /usr/include/suitesparse
+-- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+-- Found CCOLAMD headers in: /usr/include/suitesparse
+-- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+-- Found CHOLMOD headers in: /usr/include/suitesparse
+-- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+-- Found COLAMD headers in: /usr/include/suitesparse
+-- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+-- Found SPQR headers in: /usr/include/suitesparse
+-- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+-- Found Config headers in: /usr/include/suitesparse
+-- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+-- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.2.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_linear_algebra
+[ 30%] Built target gtest
+[ 30%] Built target gtest_main
+[ 53%] Built target ecl_linear_algebra
+[100%] Built target ecl_test_linear_algebra_plugin
+[100%] Built target ecl_test_linear_algebra_formatters
+[100%] Built target ecl_test_linear_algebra_interpolators
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/include/ecl/linear_algebra/eigen/unsupported/nonlinear_optimization.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/include/ecl/linear_algebra/eigen/unsupported/numerical_diff.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/include/ecl/linear_algebra/eigen/formatters.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/include/ecl/linear_algebra/eigen/plugin.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/include/ecl/linear_algebra/sophus/formatters.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/include/ecl/linear_algebra/sophus/helpers.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/include/ecl/linear_algebra/sophus/interpolators.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/include/ecl/linear_algebra/eigen.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/include/ecl/linear_algebra/sophus.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/include/ecl/linear_algebra.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/environment/library_path.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/environment/library_path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ament_index/resource_index/package_run_dependencies/ecl_linear_algebra
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ament_index/resource_index/parent_prefix_path/ecl_linear_algebra
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/environment/path.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/environment/path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/local_setup.bash
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/local_setup.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/local_setup.zsh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/local_setup.dsv
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/package.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ament_index/resource_index/packages/ecl_linear_algebra
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/cmake/ecl_linear_algebraConfig.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/cmake/ecl_linear_algebraConfig-version.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/package.xml
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/cmake/ecl_linear_algebraExport.cmake
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/cmake/ecl_linear_algebraExport-noconfig.cmake
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/lib/libecl_linear_algebra.so.1.2.1
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/lib/libecl_linear_algebra.so

@@ -1,0 +1,637 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/utils/bin/ecl_quaternion2yaw"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"ecl_add_global_utility",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"add_compile_options",
+			"ecl_enable_cxx_warnings",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"src/utils/CMakeLists.txt",
+			"/opt/ros/jazzy/share/sophus/cmake/SophusTargets.cmake",
+			"/opt/ros/jazzy/share/sophus/cmake/SophusConfig.cmake",
+			"/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/cmake/ecl_linear_algebraConfig.cmake",
+			"CMakeLists.txt",
+			"/usr/lib/x86_64-linux-gnu/cmake/Ceres/CeresTargets.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/Ceres/CeresConfig.cmake",
+			"/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake",
+			"/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/cmake/ecl_ipcExport.cmake",
+			"/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/cmake/ament_cmake_export_targets-extras.cmake",
+			"/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/cmake/ecl_ipcConfig.cmake",
+			"/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_time_lite/share/ecl_time_lite/cmake/ecl_time_liteExport.cmake",
+			"/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_time_lite/share/ecl_time_lite/cmake/ament_cmake_export_targets-extras.cmake",
+			"/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_time_lite/share/ecl_time_lite/cmake/ecl_time_liteConfig.cmake",
+			"/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_time/share/ecl_time/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_time/share/ecl_time/cmake/ecl_timeConfig.cmake",
+			"/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/cmake/ecl_threadsConfig.cmake",
+			"/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_devices/share/ecl_devices/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_devices/share/ecl_devices/cmake/ecl_devicesConfig.cmake",
+			"/opt/ros/jazzy/share/ecl_build/cmake/ecl_cxx.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 1
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 22,
+				"parent" : 4
+			},
+			{
+				"file" : 4,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 41,
+				"parent" : 6
+			},
+			{
+				"file" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"file" : 2,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 10
+			},
+			{
+				"file" : 1,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 61,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 21,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 76,
+				"parent" : 14
+			},
+			{
+				"file" : 7,
+				"parent" : 15
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 270,
+				"parent" : 16
+			},
+			{
+				"file" : 6,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 71,
+				"parent" : 18
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 31,
+				"parent" : 4
+			},
+			{
+				"file" : 11,
+				"parent" : 20
+			},
+			{
+				"command" : 4,
+				"file" : 11,
+				"line" : 41,
+				"parent" : 21
+			},
+			{
+				"file" : 10,
+				"parent" : 22
+			},
+			{
+				"command" : 4,
+				"file" : 10,
+				"line" : 9,
+				"parent" : 23
+			},
+			{
+				"file" : 9,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 61,
+				"parent" : 25
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 26,
+				"parent" : 4
+			},
+			{
+				"file" : 20,
+				"parent" : 27
+			},
+			{
+				"command" : 4,
+				"file" : 20,
+				"line" : 41,
+				"parent" : 28
+			},
+			{
+				"file" : 19,
+				"parent" : 29
+			},
+			{
+				"command" : 5,
+				"file" : 19,
+				"line" : 21,
+				"parent" : 30
+			},
+			{
+				"file" : 18,
+				"parent" : 31
+			},
+			{
+				"command" : 4,
+				"file" : 18,
+				"line" : 41,
+				"parent" : 32
+			},
+			{
+				"file" : 17,
+				"parent" : 33
+			},
+			{
+				"command" : 5,
+				"file" : 17,
+				"line" : 21,
+				"parent" : 34
+			},
+			{
+				"file" : 16,
+				"parent" : 35
+			},
+			{
+				"command" : 4,
+				"file" : 16,
+				"line" : 41,
+				"parent" : 36
+			},
+			{
+				"file" : 15,
+				"parent" : 37
+			},
+			{
+				"command" : 5,
+				"file" : 15,
+				"line" : 21,
+				"parent" : 38
+			},
+			{
+				"file" : 14,
+				"parent" : 39
+			},
+			{
+				"command" : 4,
+				"file" : 14,
+				"line" : 41,
+				"parent" : 40
+			},
+			{
+				"file" : 13,
+				"parent" : 41
+			},
+			{
+				"command" : 4,
+				"file" : 13,
+				"line" : 9,
+				"parent" : 42
+			},
+			{
+				"file" : 12,
+				"parent" : 43
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 61,
+				"parent" : 44
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 44,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 21,
+				"line" : 29,
+				"parent" : 46
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 19,
+				"parent" : 4
+			},
+			{
+				"file" : 23,
+				"parent" : 48
+			},
+			{
+				"command" : 4,
+				"file" : 23,
+				"line" : 41,
+				"parent" : 49
+			},
+			{
+				"file" : 22,
+				"parent" : 50
+			},
+			{
+				"command" : 9,
+				"file" : 22,
+				"line" : 25,
+				"parent" : 51
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"backtrace" : 47,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 47,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 47,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 47,
+					"fragment" : "-Wpedantic"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "FMT_SHARED"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "GFLAGS_IS_A_DLL=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "GLOG_CUSTOM_PREFIX_SUPPORT"
+				},
+				{
+					"backtrace" : 52,
+					"define" : "ROS_PACKAGE_NAME=\"ecl_core_apps\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_config/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_converters/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_concepts/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_type_traits/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_mpl/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_errors/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_exceptions/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_containers/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_formatters/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_utilities/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_devices/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_time/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_time_lite/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_geometry/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_eigen/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_math/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_sigslots/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_streams/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "ecl_quaternion2yaw::@f1b38b22aeb65474a6c5",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_geometry/lib:/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/lib:/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/lib:/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_streams/lib:/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_devices/lib:/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_formatters/lib:/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/lib:/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_type_traits/lib:/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_time/lib:/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_exceptions/lib:/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_time_lite/lib:/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_errors/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_geometry/lib/libecl_geometry.so.1.2.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/lib/libecl_ipc.so.1.2.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/lib/libecl_linear_algebra.so.1.2.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_streams/lib/libecl_streams.so.1.2.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libfmt.so.9.1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libceres.so.2.2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libglog.so.0.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_devices/lib/libecl_devices.so.1.2.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_formatters/lib/libecl_formatters.so.1.2.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/lib/libecl_threads.so.1.2.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_type_traits/lib/libecl_type_traits.so.1.2.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_time/lib/libecl_time.so.1.2.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_exceptions/lib/libecl_exceptions.so.1.2.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_time_lite/lib/libecl_time_lite.so.1.2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_errors/lib/libecl_errors.so.1.2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 45,
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ecl_quaternion2yaw",
+	"nameOnDisk" : "ecl_quaternion2yaw",
+	"paths" : 
+	{
+		"build" : "src/utils",
+		"source" : "src/utils"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/utils/quaternion2yaw.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

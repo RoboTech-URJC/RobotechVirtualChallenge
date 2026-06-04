@@ -1,0 +1,3 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/lib/libkobuki_random_walker.so
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/cmake/kobuki_random_walkerExport.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_random_walker/share/kobuki_random_walker/cmake/kobuki_random_walkerExport-noconfig.cmake

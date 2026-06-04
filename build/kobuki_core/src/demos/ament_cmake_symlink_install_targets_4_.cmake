@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_core/src/demos/demo_log_levels" "TARGETS" "kobuki_core_demo_log_levels" "RUNTIME_DESTINATION" "lib/kobuki_core")

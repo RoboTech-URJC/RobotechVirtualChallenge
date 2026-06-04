@@ -1,0 +1,66 @@
+[0.089s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/kobuki_ros/kobuki_bumper2pc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc
+[0.253s] -- The C compiler identification is GNU 13.3.0
+[0.445s] -- The CXX compiler identification is GNU 13.3.0
+[0.474s] -- Detecting C compiler ABI info
+[0.702s] -- Detecting C compiler ABI info - done
+[0.717s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.717s] -- Detecting C compile features
+[0.717s] -- Detecting C compile features - done
+[0.728s] -- Detecting CXX compiler ABI info
+[0.896s] -- Detecting CXX compiler ABI info - done
+[0.918s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.918s] -- Detecting CXX compile features
+[0.919s] -- Detecting CXX compile features - done
+[0.938s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.366s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.500s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.724s] -- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/jazzy/share/kobuki_ros_interfaces/cmake)
+[1.870s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.909s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.952s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.001s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.247s] -- Found rcl_interfaces: 2.0.3 (/opt/ros/jazzy/share/rcl_interfaces/cmake)
+[2.284s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.343s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.353s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.515s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.549s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.588s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.752s] -- Found rclcpp_components: 28.1.18 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[2.851s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.062s] -- Configuring done (3.0s)
+[3.086s] -- Generating done (0.0s)
+[3.094s] -- Build files have been written to: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc
+[3.111s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/kobuki_ros/kobuki_bumper2pc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc
+[3.112s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc -- -j16 -l16
+[3.227s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_bumper2pc_node.dir/rclcpp_components/node_main_kobuki_bumper2pc_node.cpp.o[0m
+[3.235s] [ 50%] [32mBuilding CXX object CMakeFiles/kobuki_bumper2pc.dir/src/kobuki_bumper2pc.cpp.o[0m
+[9.661s] [ 75%] [32m[1mLinking CXX executable kobuki_bumper2pc_node[0m
+[9.881s] [ 75%] Built target kobuki_bumper2pc_node
+[18.970s] [100%] [32m[1mLinking CXX shared library libkobuki_bumper2pc.so[0m
+[19.736s] [100%] Built target kobuki_bumper2pc
+[19.764s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc -- -j16 -l16
+[19.766s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc
+[19.785s] -- Install configuration: ""
+[19.786s] -- Execute custom install script
+[19.786s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/lib/kobuki_bumper2pc/kobuki_bumper2pc_node
+[19.808s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/lib/libkobuki_bumper2pc.so
+[19.830s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/include/kobuki_bumper2pc/kobuki_bumper2pc.hpp
+[19.850s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/share/kobuki_bumper2pc/launch/kobuki_bumper2pc-launch.py
+[19.878s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/share/ament_index/resource_index/package_run_dependencies/kobuki_bumper2pc
+[19.895s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/share/ament_index/resource_index/parent_prefix_path/kobuki_bumper2pc
+[19.911s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/ament_prefix_path.sh
+[19.930s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/ament_prefix_path.dsv
+[19.946s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/path.sh
+[19.962s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/path.dsv
+[19.977s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.bash
+[19.994s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.sh
+[20.010s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.zsh
+[20.025s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.dsv
+[20.041s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/share/kobuki_bumper2pc/package.dsv
+[20.060s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/share/ament_index/resource_index/packages/kobuki_bumper2pc
+[20.080s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/share/ament_index/resource_index/rclcpp_components/kobuki_bumper2pc
+[20.099s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig.cmake
+[20.121s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig-version.cmake
+[20.143s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_bumper2pc/share/kobuki_bumper2pc/package.xml
+[20.170s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc

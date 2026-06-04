@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/openni2_camera/rosidl_generator_c/openni2_camera/msg/rosidl_generator_c__visibility_control.h

@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/ros_astra_camera/astra_camera/include/astra_camera/point_cloud_proc/depth_traits.h

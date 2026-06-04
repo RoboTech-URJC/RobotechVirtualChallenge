@@ -1,0 +1,4 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreExport.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreExport-noconfig.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/libkobuki_core.so.1.4.0
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/libkobuki_core.so

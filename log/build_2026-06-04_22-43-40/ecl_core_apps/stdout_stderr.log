@@ -1,0 +1,94 @@
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+  CMakeLists.txt:20 (find_package)
+
+[0m
+-- Found ecl_config: 1.2.0 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_config/share/ecl_config/cmake)
+-- Found ecl_linear_algebra: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_linear_algebra/share/ecl_linear_algebra/cmake)
+-- Found AMD headers in: /usr/include/suitesparse
+-- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+-- Found CAMD headers in: /usr/include/suitesparse
+-- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+-- Found CCOLAMD headers in: /usr/include/suitesparse
+-- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+-- Found CHOLMOD headers in: /usr/include/suitesparse
+-- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+-- Found COLAMD headers in: /usr/include/suitesparse
+-- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+-- Found SPQR headers in: /usr/include/suitesparse
+-- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+-- Found Config headers in: /usr/include/suitesparse
+-- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+-- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+-- Found ecl_command_line: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ecl_command_line/cmake)
+-- Found ecl_containers: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_containers/share/ecl_containers/cmake)
+-- Found ecl_devices: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_devices/share/ecl_devices/cmake)
+-- Found ecl_geometry: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_geometry/share/ecl_geometry/cmake)
+-- Found ecl_ipc: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_ipc/share/ecl_ipc/cmake)
+-- Found ecl_sigslots: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_sigslots/share/ecl_sigslots/cmake)
+-- Found ecl_streams: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_streams/share/ecl_streams/cmake)
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_core_apps
+[ 11%] Built target ecl_bench_files
+[ 11%] Built target ecl_bench_flops
+[ 17%] Built target ecl_bench_exceptions
+[ 23%] Built target ecl_bench_snooze
+[ 29%] Built target ecl_bench_string_conversions
+[ 35%] Built target ecl_bench_eigen3_inverse
+[ 41%] Built target ecl_socket_client
+[ 47%] Built target ecl_bench_eigen3_transforms
+[ 52%] Built target ecl_bench_streams
+[ 58%] Built target ecl_bench_containers
+[ 64%] Built target ecl_bench_eigen3_decompositions
+[ 70%] Built target ecl_hex
+[ 76%] Built target ecl_process_statistics
+[ 82%] Built target ecl_socket_server
+[ 88%] Built target ecl_serial
+[ 94%] Built target ecl_quaternion2yaw
+[100%] Built target ecl_yaw2quaternion
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/bin/ecl_bench_containers
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/bin/ecl_bench_files
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/bin/ecl_bench_flops
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/bin/ecl_bench_exceptions
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/bin/ecl_bench_snooze
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/bin/ecl_bench_streams
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/bin/ecl_bench_string_conversions
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/bin/ecl_bench_eigen3_inverse
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/bin/ecl_bench_eigen3_decompositions
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/bin/ecl_bench_eigen3_transforms
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/lib/ecl_core_apps/ecl_hex
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/lib/ecl_core_apps/ecl_serial
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/lib/ecl_core_apps/ecl_socket_client
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/lib/ecl_core_apps/ecl_socket_server
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/bin/ecl_process_statistics
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/bin/ecl_quaternion2yaw
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/bin/ecl_yaw2quaternion
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/share/ament_index/resource_index/package_run_dependencies/ecl_core_apps
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/share/ament_index/resource_index/parent_prefix_path/ecl_core_apps
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/share/ecl_core_apps/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/share/ecl_core_apps/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/share/ecl_core_apps/environment/path.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/share/ecl_core_apps/environment/path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/share/ecl_core_apps/local_setup.bash
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/share/ecl_core_apps/local_setup.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/share/ecl_core_apps/local_setup.zsh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/share/ecl_core_apps/local_setup.dsv
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/share/ecl_core_apps/package.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/share/ament_index/resource_index/packages/ecl_core_apps
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/share/ecl_core_apps/cmake/ecl_core_appsConfig.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/share/ecl_core_apps/cmake/ecl_core_appsConfig-version.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_core_apps/share/ecl_core_apps/package.xml

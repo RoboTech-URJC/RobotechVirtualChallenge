@@ -1,0 +1,121 @@
+[0.058s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/kobuki_ros/kobuki_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description
+[0.234s] -- The C compiler identification is GNU 13.3.0
+[0.553s] -- The CXX compiler identification is GNU 13.3.0
+[0.609s] -- Detecting C compiler ABI info
+[0.696s] -- Detecting C compiler ABI info - done
+[0.714s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.714s] -- Detecting C compile features
+[0.714s] -- Detecting C compile features - done
+[0.730s] -- Detecting CXX compiler ABI info
+[0.914s] -- Detecting CXX compiler ABI info - done
+[0.932s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.933s] -- Detecting CXX compile features
+[0.933s] -- Detecting CXX compile features - done
+[0.944s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.314s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.411s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.606s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.864s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.873s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.873s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.876s] -- Added test 'lint_cmake' to check CMake code style
+[1.878s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.884s] -- Added test 'xmllint' to check XML markup files
+[1.892s] -- Configuring done (1.8s)
+[1.895s] -- Generating done (0.0s)
+[1.897s] -- Build files have been written to: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description
+[1.951s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/kobuki_ros/kobuki_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description
+[1.952s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description -- -j16 -l16
+[2.026s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description -- -j16 -l16
+[2.027s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description
+[2.043s] -- Install configuration: ""
+[2.044s] -- Execute custom install script
+[2.045s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/launch/__pycache__/kobuki_description.launch.cpython-312.pyc
+[2.072s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/launch/__pycache__/spawn.launch.cpython-312.pyc
+[2.089s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/launch/kobuki_description.launch.py
+[2.117s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/launch/spawn.launch.py
+[2.134s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/images/main_body.jpg
+[2.157s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/images/wheel.jpg
+[2.179s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/main_body.dae
+[2.198s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/sensors/0_xtion_pro.jpg
+[2.207s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/sensors/astra.dae
+[2.219s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/sensors/astra.jpg
+[2.229s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/sensors/asus_xtion_pro_live.dae
+[2.241s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/sensors/asus_xtion_pro_live.png
+[2.256s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/sensors/kinect.dae
+[2.267s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/sensors/kinect.jpg
+[2.278s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/sensors/kinect.tga
+[2.293s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/sensors/r200.dae
+[2.308s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/sensors/r200.jpg
+[2.320s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/sensors/r200_bracket.stl
+[2.334s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/sensors/r200_bracket_end.stl
+[2.348s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/sensors/rplidar.dae
+[2.357s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/sensors/sensor_pole.dae
+[2.367s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/sensors/xtion_pro.jpg
+[2.379s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/sensors/xtion_pro_camera.dae
+[2.392s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/sensors/xtion_pro_camera.jpg
+[2.411s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/sensors/xtion_pro_stack.dae
+[2.427s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-02403-125_Spacer.dae
+[2.443s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-02421-8000-RA_Turtlebot_F-F_Standoff.dae
+[2.456s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-02421-8000-RA_Turtlebot_F-F_Standoff_color.png
+[2.467s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-04552-1000-RA_Turtlebot_M-F_Standoff.dae
+[2.480s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-04552-1000-RA_Turtlebot_M-F_Standoff_color.png
+[2.492s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-04552-2000-RA_Turtlebot_M-F_Standoff.dae
+[2.506s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-04552-2000-RA_Turtlebot_M-F_Standoff_color.png
+[2.520s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-04556-RA_Kinect_Standoff_Assy.3ds
+[2.533s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-04556-RA_Kinect_Standoff_Assy.dae
+[2.547s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/plate_0_logo.dae
+[2.559s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/plate_0_logo.tga
+[2.575s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/plate_1_logo.dae
+[2.590s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/plate_1_logo.tga
+[2.601s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/plate_2_logo.dae
+[2.616s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/plate_2_logo.tga
+[2.631s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/1f_pole.jpg
+[2.643s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/1f_stack.jpg
+[2.659s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/2f_pole.jpg
+[2.676s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/2f_stack.jpg
+[2.700s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/3f_pole.jpg
+[2.715s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/3f_stack.jpg
+[2.735s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/3f_stack1.jpg
+[2.752s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/kinect_pole.jpg
+[2.768s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/kinect_pole_old.jpg
+[2.793s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/plate_bottom.dae
+[2.810s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/plate_middle.dae
+[2.822s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/plate_top.dae
+[2.838s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/pole_bottom.dae
+[2.854s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/pole_kinect.dae
+[2.870s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/pole_middle.dae
+[2.882s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/pole_top.dae
+[2.894s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/meshes/wheel.dae
+[2.906s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/rviz/model.rviz
+[2.921s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/urdf/common_properties.urdf.xacro
+[2.935s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/urdf/kobuki.urdf.xacro
+[2.950s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/urdf/kobuki_base.urdf.xacro
+[2.966s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/urdf/kobuki_gazebo.urdf.xacro
+[2.982s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/urdf/sensors/astra.urdf.xacro
+[2.996s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/urdf/sensors/asus_xtion_pro.urdf.xacro
+[3.013s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/urdf/sensors/asus_xtion_pro_offset.urdf.xacro
+[3.025s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/urdf/sensors/kinect.urdf.xacro
+[3.040s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/urdf/sensors/lidar.urdf.xacro
+[3.055s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/urdf/sensors/r200.urdf.xacro
+[3.072s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/urdf/stacks/circles.urdf.xacro
+[3.090s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/urdf/stacks/hexagons.urdf.xacro
+[3.112s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/urdf/turtlebot_common_library.urdf.xacro
+[3.131s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/urdf/turtlebot_properties.urdf.xacro
+[3.153s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/config/bridge/kobuki_bridge.yaml
+[3.182s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/ament_index/resource_index/package_run_dependencies/kobuki_description
+[3.209s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/ament_index/resource_index/parent_prefix_path/kobuki_description
+[3.256s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/environment/ament_prefix_path.sh
+[3.274s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/environment/ament_prefix_path.dsv
+[3.291s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/environment/path.sh
+[3.314s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/environment/path.dsv
+[3.329s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/local_setup.bash
+[3.344s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/local_setup.sh
+[3.361s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/local_setup.zsh
+[3.376s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/local_setup.dsv
+[3.392s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/package.dsv
+[3.410s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/ament_index/resource_index/packages/kobuki_description
+[3.421s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/cmake/kobuki_descriptionConfig.cmake
+[3.438s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/cmake/kobuki_descriptionConfig-version.cmake
+[3.453s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_description/share/kobuki_description/package.xml
+[3.473s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description

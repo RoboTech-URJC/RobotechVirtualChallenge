@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_formatters/ament_cmake_core/ecl_formattersConfig-version.cmake

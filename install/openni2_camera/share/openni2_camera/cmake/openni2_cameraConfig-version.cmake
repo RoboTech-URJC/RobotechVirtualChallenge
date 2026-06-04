@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/openni2_camera/ament_cmake_core/openni2_cameraConfig-version.cmake

@@ -1,0 +1,9 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description/CMakeFiles/uninstall.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description/CMakeFiles/kobuki_description_uninstall.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description/CMakeFiles/test.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description/CMakeFiles/edit_cache.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description/CMakeFiles/rebuild_cache.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description/CMakeFiles/list_install_components.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description/CMakeFiles/install.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description/CMakeFiles/install/local.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description/CMakeFiles/install/strip.dir

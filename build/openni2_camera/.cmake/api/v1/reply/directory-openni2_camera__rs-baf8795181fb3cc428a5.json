@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "openni2_camera__rs",
+		"source" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/openni2_camera/openni2_camera__rs"
+	}
+}

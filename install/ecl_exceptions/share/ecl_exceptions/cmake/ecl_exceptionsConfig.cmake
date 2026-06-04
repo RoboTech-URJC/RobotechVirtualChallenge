@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_exceptions/ament_cmake_core/ecl_exceptionsConfig.cmake

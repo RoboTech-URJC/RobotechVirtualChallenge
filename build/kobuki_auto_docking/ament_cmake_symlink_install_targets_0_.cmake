@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_auto_docking/kobuki_auto_docking_node" "TARGETS" "kobuki_auto_docking_node" "DESTINATION" "lib/kobuki_auto_docking")

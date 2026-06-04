@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_math/ament_cmake_core/ecl_mathConfig-version.cmake

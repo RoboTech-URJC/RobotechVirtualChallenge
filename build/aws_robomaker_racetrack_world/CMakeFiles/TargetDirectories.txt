@@ -1,0 +1,9 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/aws_robomaker_racetrack_world/CMakeFiles/uninstall.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/aws_robomaker_racetrack_world/CMakeFiles/aws_robomaker_racetrack_world_uninstall.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/aws_robomaker_racetrack_world/CMakeFiles/test.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/aws_robomaker_racetrack_world/CMakeFiles/edit_cache.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/aws_robomaker_racetrack_world/CMakeFiles/rebuild_cache.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/aws_robomaker_racetrack_world/CMakeFiles/list_install_components.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/aws_robomaker_racetrack_world/CMakeFiles/install.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/aws_robomaker_racetrack_world/CMakeFiles/install/local.dir
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/aws_robomaker_racetrack_world/CMakeFiles/install/strip.dir

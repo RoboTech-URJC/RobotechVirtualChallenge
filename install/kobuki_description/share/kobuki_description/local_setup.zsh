@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_description/ament_cmake_environment_hooks/local_setup.zsh

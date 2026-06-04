@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_config/share/ecl_config/cmake/ecl_configExport.cmake

@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/openni2_camera/openni2_camera/launch/camera_with_cloud_norgb.launch.py

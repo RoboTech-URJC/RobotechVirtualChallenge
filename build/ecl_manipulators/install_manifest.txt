@@ -1,0 +1,4 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_manipulators/share/ecl_manipulators/cmake/ecl_manipulatorsExport.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_manipulators/share/ecl_manipulators/cmake/ecl_manipulatorsExport-noconfig.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_manipulators/lib/libecl_manipulators.so.1.2.1
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_manipulators/lib/libecl_manipulators.so

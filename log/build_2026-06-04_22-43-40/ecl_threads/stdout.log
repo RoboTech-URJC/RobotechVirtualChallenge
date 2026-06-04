@@ -1,0 +1,67 @@
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+-- Found ecl_config: 1.2.0 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_config/share/ecl_config/cmake)
+-- Found ecl_errors: 1.2.0 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_errors/share/ecl_errors/cmake)
+-- Found ecl_concepts: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_concepts/share/ecl_concepts/cmake)
+-- Found ecl_exceptions: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_exceptions/share/ecl_exceptions/cmake)
+-- Found ecl_time: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_time/share/ecl_time/cmake)
+-- Found ecl_utilities: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_utilities/share/ecl_utilities/cmake)
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_threads
+[  8%] Built target gtest_main
+[ 17%] Built target gtest
+[ 47%] Built target ecl_threads
+[ 56%] Built target ecl_demo_thread
+[ 65%] Built target ecl_demo_mutex
+[ 78%] Built target ecl_test_priorities
+[ 82%] Built target ecl_test_threadable
+[ 91%] Built target ecl_test_threads
+[100%] Built target ecl_test_mutex
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/include/ecl/threads/macros.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/include/ecl/threads/mutex.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/include/ecl/threads/mutex_pos.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/include/ecl/threads/mutex_w32.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/include/ecl/threads/priority.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/include/ecl/threads/priority_common.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/include/ecl/threads/priority_pos.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/include/ecl/threads/priority_win.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/include/ecl/threads/thread.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/include/ecl/threads/thread_exceptions_pos.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/include/ecl/threads/thread_pos.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/include/ecl/threads/thread_win.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/include/ecl/threads/threadable.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/include/ecl/threads.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/lib/ecl_threads/demo_thread
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/lib/ecl_threads/demo_mutex
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/environment/library_path.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/environment/library_path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ament_index/resource_index/package_run_dependencies/ecl_threads
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ament_index/resource_index/parent_prefix_path/ecl_threads
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/environment/path.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/environment/path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/local_setup.bash
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/local_setup.sh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/local_setup.zsh
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/local_setup.dsv
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/package.dsv
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ament_index/resource_index/packages/ecl_threads
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/cmake/ecl_threads-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/cmake/ecl_threadsConfig.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/cmake/ecl_threadsConfig-version.cmake
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/package.xml
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/cmake/ecl_threadsExport.cmake
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/cmake/ecl_threadsExport-noconfig.cmake
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/lib/libecl_threads.so.1.2.1
+-- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/lib/libecl_threads.so

@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/astra_camera_msgs/ament_cmake_core/astra_camera_msgsConfig-version.cmake

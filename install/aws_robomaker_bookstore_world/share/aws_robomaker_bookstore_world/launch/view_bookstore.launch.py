@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/aws-robomaker-bookstore-world/launch/view_bookstore.launch.py

@@ -1,0 +1,11 @@
+{
+  "package_name": "openni2_camera",
+  "output_dir": "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/openni2_camera/rosidl_generator_type_description/openni2_camera",
+  "idl_tuples": [
+    "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/openni2_camera/rosidl_adapter/openni2_camera:srv/GetSerial.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

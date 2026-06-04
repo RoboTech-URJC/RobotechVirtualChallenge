@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/astra_camera_msgs/rosidl_generator_rs/astra_camera_msgs/rust/build.rs

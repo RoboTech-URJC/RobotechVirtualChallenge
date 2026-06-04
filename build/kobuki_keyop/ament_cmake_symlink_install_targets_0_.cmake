@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_keyop/kobuki_keyop_node" "TARGETS" "kobuki_keyop_node" "DESTINATION" "lib/kobuki_keyop")

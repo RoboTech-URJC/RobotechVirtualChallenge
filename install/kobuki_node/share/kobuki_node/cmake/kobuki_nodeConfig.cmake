@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_node/ament_cmake_core/kobuki_nodeConfig.cmake

@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/kobuki_core/include/kobuki_core/parameters.hpp

@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/kobuki/launch/multirobot/rviz_namespaced.launch.py

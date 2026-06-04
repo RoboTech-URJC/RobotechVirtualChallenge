@@ -1,0 +1,67 @@
+[0.068s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_safety_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/kobuki_ros/kobuki_safety_controller -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller
+[0.127s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.581s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.599s] -- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[0.608s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[0.608s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.608s]   CMake.
+[0.608s] 
+[0.608s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.608s]   CMake that the project does not need compatibility with older versions.
+[0.609s] Call Stack (most recent call first):
+[0.609s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[0.609s]   CMakeLists.txt:5 (find_package)
+[0.609s] 
+[0.609s] [0m
+[0.615s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.684s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.710s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.741s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.779s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.869s] -- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/jazzy/share/kobuki_ros_interfaces/cmake)
+[1.007s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.082s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.090s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.231s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.301s] -- Found rclcpp_components: 28.1.18 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.454s] -- Configuring done (1.4s)
+[1.481s] -- Generating done (0.0s)
+[1.490s] -- Build files have been written to: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_safety_controller
+[1.505s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_safety_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/kobuki_ros/kobuki_safety_controller -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller
+[1.506s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_safety_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_safety_controller -- -j16 -l16
+[1.648s] [ 50%] Built target kobuki_safety_controller_node
+[1.649s] [100%] Built target kobuki_safety_controller
+[1.754s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_safety_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_safety_controller -- -j16 -l16
+[1.756s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_safety_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_safety_controller
+[1.827s] -- Install configuration: ""
+[1.827s] -- Execute custom install script
+[1.827s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/lib/kobuki_safety_controller/kobuki_safety_controller_node
+[1.827s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/include/kobuki_safety_controller/safety_controller.hpp
+[1.827s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/config/safety_controller_params.yaml
+[1.827s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/launch/safety_controller-composed-launch.py
+[1.827s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/launch/safety_controller-launch.py
+[1.827s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/library_path.sh
+[1.827s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/library_path.dsv
+[1.828s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/ament_index/resource_index/package_run_dependencies/kobuki_safety_controller
+[1.828s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/ament_index/resource_index/parent_prefix_path/kobuki_safety_controller
+[1.828s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/ament_prefix_path.sh
+[1.828s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/ament_prefix_path.dsv
+[1.828s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/path.sh
+[1.829s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/path.dsv
+[1.829s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/local_setup.bash
+[1.829s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/local_setup.sh
+[1.829s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/local_setup.zsh
+[1.829s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/local_setup.dsv
+[1.829s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/package.dsv
+[1.829s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/ament_index/resource_index/packages/kobuki_safety_controller
+[1.829s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/ament_index/resource_index/rclcpp_components/kobuki_safety_controller
+[1.829s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.829s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[1.829s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/ament_cmake_export_targets-extras.cmake
+[1.830s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/kobuki_safety_controllerConfig.cmake
+[1.830s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/kobuki_safety_controllerConfig-version.cmake
+[1.830s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/package.xml
+[1.830s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/lib/libkobuki_safety_controller.so
+[1.830s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/kobuki_safety_controllerExport.cmake
+[1.830s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/kobuki_safety_controllerExport-noconfig.cmake
+[1.849s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_safety_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_safety_controller

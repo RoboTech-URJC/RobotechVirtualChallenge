@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ros2_bringup</name>
+  <version>0.1.0</version>
+  <description>ROS 2 launch files for Robotech Virtual Challenge.</description>
+
+  <maintainer email="todo@example.com">Robotech</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>ros_gz_sim</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

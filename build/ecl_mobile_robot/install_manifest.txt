@@ -1,0 +1,4 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_mobile_robot/share/ecl_mobile_robot/cmake/ecl_mobile_robotExport.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_mobile_robot/share/ecl_mobile_robot/cmake/ecl_mobile_robotExport-noconfig.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_mobile_robot/lib/libecl_mobile_robot.so.1.2.1
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_mobile_robot/lib/libecl_mobile_robot.so

@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_bumper2pc/ament_cmake_core/kobuki_bumper2pcConfig.cmake

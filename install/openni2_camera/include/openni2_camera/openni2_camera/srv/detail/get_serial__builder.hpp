@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/openni2_camera/rosidl_generator_cpp/openni2_camera/srv/detail/get_serial__builder.hpp

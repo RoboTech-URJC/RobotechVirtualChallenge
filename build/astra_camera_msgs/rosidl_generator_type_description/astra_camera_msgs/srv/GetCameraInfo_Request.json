@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "astra_camera_msgs/srv/GetCameraInfo_Request",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "astra_camera_msgs/srv/GetCameraInfo_Request",
+      "hash_string": "RIHS01_21543104da7d6184409d9120c70fd84bc9579ca62d4204c1fdcacd04c9e045f0"
+    }
+  ]
+}

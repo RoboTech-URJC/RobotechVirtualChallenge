@@ -1,0 +1,4 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_streams/share/ecl_streams/cmake/ecl_streamsExport.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_streams/share/ecl_streams/cmake/ecl_streamsExport-noconfig.cmake
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_streams/lib/libecl_streams.so.1.2.1
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_streams/lib/libecl_streams.so

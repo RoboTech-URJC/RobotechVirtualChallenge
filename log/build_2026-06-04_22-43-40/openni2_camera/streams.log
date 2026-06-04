@@ -1,0 +1,181 @@
+[0.063s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/openni2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/openni2_camera/openni2_camera -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera
+[1.014s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.014s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.014s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.014s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.014s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.015s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.015s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.015s] -- Found camera_info_manager: 5.1.7 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+[1.015s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.015s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.047s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.266s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.334s] -- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+[1.362s] -- Found rclcpp_components: 28.1.18 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.406s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.435s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.769s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.050s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.052s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.351s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.412s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.433s] -- Configuring done (2.4s)
+[2.538s] -- Generating done (0.1s)
+[2.569s] -- Build files have been written to: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/openni2_camera
+[2.603s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/openni2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/openni2_camera/openni2_camera -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera
+[2.604s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/openni2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/openni2_camera -- -j16 -l16
+[2.696s] [  1%] Built target openni2_camera__rs
+[2.696s] [  3%] Built target openni2_camera__rosidl_generator_type_description
+[2.704s] [  7%] Built target usb_reset
+[2.714s] [  7%] Built target ament_cmake_python_symlink_openni2_camera
+[2.718s] [ 11%] Built target openni2_camera_driver
+[2.730s] [ 27%] Built target openni2_wrapper
+[2.739s] [ 29%] Built target openni2_camera__cpp
+[2.741s] [ 38%] Built target openni2_camera__rosidl_generator_c
+[2.796s] [ 42%] Built target list_devices
+[2.802s] [ 53%] Built target openni2_camera__rosidl_typesupport_introspection_c
+[2.802s] [ 53%] Built target openni2_camera__rosidl_typesupport_fastrtps_cpp
+[2.808s] [ 59%] Built target openni2_camera__rosidl_typesupport_c
+[2.811s] [ 62%] Built target test_wrapper
+[2.814s] [ 68%] Built target openni2_camera__rosidl_typesupport_fastrtps_c
+[2.815s] [ 74%] Built target openni2_camera__rosidl_typesupport_introspection_cpp
+[2.816s] [ 79%] Built target openni2_camera__rosidl_typesupport_cpp
+[2.857s] [ 79%] Built target openni2_camera
+[2.879s] [ 83%] Built target openni2_camera_lib
+[2.892s] [ 85%] Built target openni2_camera__py
+[2.946s] [ 88%] Built target openni2_camera__rosidl_generator_py
+[2.999s] [ 92%] Built target openni2_camera_s__rosidl_typesupport_introspection_c
+[2.999s] [ 96%] Built target openni2_camera_s__rosidl_typesupport_c
+[3.016s] [100%] Built target openni2_camera_s__rosidl_typesupport_fastrtps_c
+[3.123s] running egg_info
+[3.163s] writing openni2_camera.egg-info/PKG-INFO
+[3.164s] writing dependency_links to openni2_camera.egg-info/dependency_links.txt
+[3.164s] writing top-level names to openni2_camera.egg-info/top_level.txt
+[3.277s] reading manifest file 'openni2_camera.egg-info/SOURCES.txt'
+[3.278s] writing manifest file 'openni2_camera.egg-info/SOURCES.txt'
+[3.312s] [100%] Built target ament_cmake_python_build_openni2_camera_egg
+[3.344s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/openni2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/openni2_camera -- -j16 -l16
+[3.345s] Invoking command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/openni2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/openni2_camera
+[3.354s] -- Install configuration: ""
+[3.355s] -- Execute custom install script
+[3.355s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/ament_index/resource_index/rosidl_interfaces/openni2_camera
+[3.355s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/srv/GetSerial.json
+[3.355s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_generator_c__visibility_control.h
+[3.355s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__functions.h
+[3.356s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__struct.h
+[3.356s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__type_support.h
+[3.356s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_camera/srv/get_serial.h
+[3.356s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/environment/library_path.sh
+[3.356s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/environment/library_path.dsv
+[3.357s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.357s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__rosidl_typesupport_fastrtps_c.h
+[3.357s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.357s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__builder.hpp
+[3.357s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__struct.hpp
+[3.357s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__traits.hpp
+[3.358s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__type_support.hpp
+[3.358s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_camera/srv/get_serial.hpp
+[3.358s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.358s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__rosidl_typesupport_fastrtps_cpp.hpp
+[3.358s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.358s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__rosidl_typesupport_introspection_c.h
+[3.358s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__rosidl_typesupport_introspection_cpp.hpp
+[3.358s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/environment/pythonpath.sh
+[3.358s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/environment/pythonpath.dsv
+[3.359s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera-2.3.0-py3.12.egg-info/PKG-INFO
+[3.359s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera-2.3.0-py3.12.egg-info/SOURCES.txt
+[3.359s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera-2.3.0-py3.12.egg-info/dependency_links.txt
+[3.359s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera-2.3.0-py3.12.egg-info/top_level.txt
+[3.359s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/__init__.py
+[3.359s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_c.c
+[3.359s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.359s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_introspection_c.c
+[3.360s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_c.so
+[3.360s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_fastrtps_c.so
+[3.360s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_introspection_c.so
+[3.360s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv/__init__.py
+[3.360s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv/_get_serial.py
+[3.360s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv/_get_serial_s.c
+[3.360s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_fastrtps_c.so
+[3.360s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_introspection_c.so
+[3.361s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_c.so
+[3.361s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/ament_index/resource_index/rust_packages/openni2_camera
+[3.361s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/rust/Cargo.toml
+[3.362s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/rust/build.rs
+[3.362s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/rust/src/lib.rs
+[3.362s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/rust/src/srv.rs
+[3.363s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/rust/src/srv/rmw.rs
+[3.363s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/srv/GetSerial.idl
+[3.363s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/srv/GetSerial.srv
+[3.363s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/openni2_camera/openni2_camera_driver
+[3.363s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/openni2_camera/list_devices
+[3.363s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/libopenni2_camera_lib.so
+[3.363s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/libopenni2_wrapper.so
+[3.363s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/openni2_camera/usb_reset
+[3.363s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_convert.h
+[3.363s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_device.h
+[3.363s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_device_info.h
+[3.363s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_device_manager.h
+[3.364s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_driver.h
+[3.364s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_exception.h
+[3.364s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_frame_listener.h
+[3.364s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_timer_filter.h
+[3.364s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/include/openni2_camera/openni2_video_mode.h
+[3.364s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera//launch/camera_only.launch.py
+[3.364s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera//launch/camera_with_cloud.launch.py
+[3.364s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera//launch/camera_with_cloud_norgb.launch.py
+[3.364s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera//launch/tfs.launch.py
+[3.365s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/ament_index/resource_index/package_run_dependencies/openni2_camera
+[3.365s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/ament_index/resource_index/parent_prefix_path/openni2_camera
+[3.365s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/environment/ament_prefix_path.sh
+[3.365s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/environment/ament_prefix_path.dsv
+[3.365s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/environment/path.sh
+[3.365s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/environment/path.dsv
+[3.365s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/local_setup.bash
+[3.365s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/local_setup.sh
+[3.365s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/local_setup.zsh
+[3.365s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/local_setup.dsv
+[3.366s] -- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/package.dsv
+[3.375s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/ament_index/resource_index/packages/openni2_camera
+[3.376s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/ament_index/resource_index/rclcpp_components/openni2_camera
+[3.376s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/rosidl_cmake-extras.cmake
+[3.376s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.377s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.377s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[3.377s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/ament_cmake_export_targets-extras.cmake
+[3.377s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.378s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.378s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/openni2_cameraConfig.cmake
+[3.378s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/openni2_cameraConfig-version.cmake
+[3.378s] -- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/package.xml
+[3.379s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/libopenni2_camera__rosidl_generator_c.so
+[3.379s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_fastrtps_c.so
+[3.379s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_fastrtps_cpp.so
+[3.379s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_introspection_c.so
+[3.379s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_c.so
+[3.379s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_introspection_cpp.so
+[3.380s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_cpp.so
+[3.425s] Listing '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera'...
+[3.426s] Compiling '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/__init__.py'...
+[3.426s] Listing '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv'...
+[3.433s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/lib/libopenni2_camera__rosidl_generator_py.so
+[3.433s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_cExport.cmake
+[3.433s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_cExport-noconfig.cmake
+[3.433s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_typesupport_fastrtps_cExport.cmake
+[3.433s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.433s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_cppExport.cmake
+[3.434s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.434s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.434s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_introspection_cExport.cmake
+[3.434s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.434s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_cExport.cmake
+[3.435s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_cExport-noconfig.cmake
+[3.435s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_introspection_cppExport.cmake
+[3.435s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.435s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_cppExport.cmake
+[3.435s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_cppExport-noconfig.cmake
+[3.436s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_pyExport.cmake
+[3.436s] -- Up-to-date: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_pyExport-noconfig.cmake
+[3.441s] Invoked command in '/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/openni2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/openni2_camera

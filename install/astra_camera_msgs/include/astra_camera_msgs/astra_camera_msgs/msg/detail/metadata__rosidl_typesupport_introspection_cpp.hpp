@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/astra_camera_msgs/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp

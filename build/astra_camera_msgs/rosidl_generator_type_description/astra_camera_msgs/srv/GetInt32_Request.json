@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "astra_camera_msgs/srv/GetInt32_Request",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "astra_camera_msgs/srv/GetInt32_Request",
+      "hash_string": "RIHS01_99e208814ee974735f5823dd8d377ea8e594f668281513e35df96cbed66e68e1"
+    }
+  ]
+}

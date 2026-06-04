@@ -1,0 +1,221 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+  CMakeLists.txt:18 (find_package)
+
+[0m
+-- Found ecl_command_line: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_command_line/share/ecl_command_line/cmake)
+-- Found ecl_config: 1.2.0 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_config/share/ecl_config/cmake)
+-- Found ecl_console: 1.2.0 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_console/share/ecl_console/cmake)
+-- Found ecl_converters: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_converters/share/ecl_converters/cmake)
+-- Found ecl_devices: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_devices/share/ecl_devices/cmake)
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (Threads)
+  does not match the name of the calling package (ecl_threads).  This can
+  lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.28/Modules/FindThreads.cmake:226 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  /opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:225 (include)
+  /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/cmake/ecl_threads-extras.cmake:4 (ecl_detect_threads)
+  /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_threads/share/ecl_threads/cmake/ecl_threadsConfig.cmake:41 (include)
+  /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_devices/share/ecl_devices/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_devices/share/ecl_devices/cmake/ecl_devicesConfig.cmake:41 (include)
+  CMakeLists.txt:23 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found Threads: TRUE  
+-- Found ecl_geometry: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_geometry/share/ecl_geometry/cmake)
+-- Found AMD headers in: /usr/include/suitesparse
+-- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+-- Found CAMD headers in: /usr/include/suitesparse
+-- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+-- Found CCOLAMD headers in: /usr/include/suitesparse
+-- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+-- Found CHOLMOD headers in: /usr/include/suitesparse
+-- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+-- Found COLAMD headers in: /usr/include/suitesparse
+-- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+-- Found SPQR headers in: /usr/include/suitesparse
+-- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+-- Found Config headers in: /usr/include/suitesparse
+-- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+-- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+-- Looking for shm_open in rt
+-- Looking for shm_open in rt - found
+-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+-- Found ecl_mobile_robot: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_mobile_robot/share/ecl_mobile_robot/cmake)
+-- Found ecl_sigslots: 1.2.1 (/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/ecl_sigslots/share/ecl_sigslots/cmake)
+-- Configuring done (3.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/kobuki_core
+[  5%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/diff_drive.cpp.o[0m
+[  5%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/dock_drive_states.cpp.o[0m
+[  8%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/core_sensors.cpp.o[0m
+[ 11%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/battery.cpp.o[0m
+[ 14%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/dock_drive_debug.cpp.o[0m
+[ 17%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/command.cpp.o[0m
+[ 20%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/dock_drive.cpp.o[0m
+[ 23%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/logging.cpp.o[0m
+[ 26%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/event_manager.cpp.o[0m
+[ 29%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/packet_finder.cpp.o[0m
+[ 32%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/kobuki.cpp.o[0m
+[ 35%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/firmware.cpp.o[0m
+[ 38%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/__/__/version_info.cpp.o[0m
+[ 41%] [32m[1mLinking CXX shared library libkobuki_core.so[0m
+[ 41%] Built target kobuki_core
+[ 50%] [32mBuilding CXX object src/tools/CMakeFiles/kobuki_core_tool_version_info.dir/version_info.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_data_stream.dir/data_stream.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_raw_data_stream.dir/raw_data_stream.cpp.o[0m
+[ 55%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_simple_loop.dir/simple_loop.cpp.o[0m
+[ 55%] [32mBuilding CXX object src/tools/CMakeFiles/kobuki_core_tool_simple_keyop.dir/simple_keyop.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_velocity_commands.dir/velocity_commands.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_log_levels.dir/log_levels.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_buttons.dir/buttons.cpp.o[0m
+[ 67%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_chirp.dir/chirp.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_custom_logging.dir/custom_logging.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable demo_velocity_commands[0m
+[ 73%] Built target kobuki_core_demo_velocity_commands
+[ 76%] [32m[1mLinking CXX executable demo_chirp[0m
+[ 79%] [32m[1mLinking CXX executable kobuki-simple-keyop[0m
+[ 82%] [32m[1mLinking CXX executable demo_log_levels[0m
+[ 82%] Built target kobuki_core_demo_chirp
+[ 82%] Built target kobuki_core_tool_simple_keyop
+[ 82%] Built target kobuki_core_demo_log_levels
+[ 85%] [32m[1mLinking CXX executable demo_buttons[0m
+[ 88%] [32m[1mLinking CXX executable kobuki-version-info[0m
+[ 91%] [32m[1mLinking CXX executable demo_custom_logging[0m
+[ 94%] [32m[1mLinking CXX executable demo_raw_data_stream[0m
+[ 97%] [32m[1mLinking CXX executable demo_simple_loop[0m
+[100%] [32m[1mLinking CXX executable demo_data_stream[0m
+[100%] Built target kobuki_core_demo_buttons
+[100%] Built target kobuki_core_tool_version_info
+[100%] Built target kobuki_core_demo_custom_logging
+[100%] Built target kobuki_core_demo_raw_data_stream
+[100%] Built target kobuki_core_demo_data_stream
+[100%] Built target kobuki_core_demo_simple_loop
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/command.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/dock_drive.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/event_manager.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/kobuki.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/logging.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/macros.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/acceleration_limiter.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/battery.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/diff_drive.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/digital_output.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/led_array.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/sound.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packet_handler/packet_finder.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packet_handler/payload_base.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packet_handler/payload_headers.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/cliff.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/controller_info.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/core_sensors.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/current.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/dock_ir.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/eeprom.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/firmware.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/gp_input.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/hardware.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/inertia.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/three_axis_gyro.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/unique_device_id.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/parameters.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/version_info.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/kobuki_core/demo_buttons
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/kobuki_core/demo_chirp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/kobuki_core/demo_custom_logging
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/kobuki_core/demo_data_stream
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/kobuki_core/demo_log_levels
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/kobuki_core/demo_raw_data_stream
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/kobuki_core/demo_simple_loop
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/kobuki_core/demo_velocity_commands
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/bin/kobuki-version-info
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/bin/kobuki-simple-keyop
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/CMakeLists.txt
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/command.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/dock_drive.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/event_manager.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/kobuki.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/logging.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/macros.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/acceleration_limiter.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/battery.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/diff_drive.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/digital_output.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/led_array.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/modules/sound.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packet_handler/packet_finder.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packet_handler/payload_base.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packet_handler/payload_headers.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/cliff.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/controller_info.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/core_sensors.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/current.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/dock_ir.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/eeprom.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/firmware.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/gp_input.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/hardware.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/inertia.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/three_axis_gyro.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/packets/unique_device_id.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/parameters.hpp
+-- Up-to-date symlink: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/include/kobuki_core/version_info.hpp
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/environment/library_path.sh
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/environment/library_path.dsv
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/ament_index/resource_index/package_run_dependencies/kobuki_core
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/ament_index/resource_index/parent_prefix_path/kobuki_core
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/environment/ament_prefix_path.sh
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/environment/ament_prefix_path.dsv
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/environment/path.sh
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/environment/path.dsv
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/local_setup.bash
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/local_setup.sh
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/local_setup.zsh
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/local_setup.dsv
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/package.dsv
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/ament_index/resource_index/packages/kobuki_core
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreConfig.cmake
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreConfig-version.cmake
+-- Symlinking: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/package.xml
+-- Installing: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreExport.cmake
+-- Installing: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreExport-noconfig.cmake
+-- Installing: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/libkobuki_core.so.1.4.0
+-- Set non-toolchain portion of runtime path of "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/libkobuki_core.so.1.4.0" to ""
+-- Installing: /home/manza/Desktop/hackaton/RobotechVirtualChallenge/install/kobuki_core/lib/libkobuki_core.so

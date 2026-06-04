@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_sigslots_lite/ament_cmake_environment_hooks/local_setup.bash

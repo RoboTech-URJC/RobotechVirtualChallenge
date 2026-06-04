@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_mobile_robot/ament_cmake_environment_hooks/local_setup.sh

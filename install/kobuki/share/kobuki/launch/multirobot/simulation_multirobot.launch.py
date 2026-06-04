@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/kobuki/launch/multirobot/simulation_multirobot.launch.py

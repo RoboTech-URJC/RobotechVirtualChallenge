@@ -1,0 +1,1 @@
+/home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/ros_astra_camera/astra_camera/launch/astra_mini.launch.py

@@ -1,0 +1,345 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c427b4dae3d82b319872.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						17
+					]
+				},
+				{
+					"build" : "include",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-include-7ead17b99bffc88b66bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include"
+				},
+				{
+					"build" : "include/ecl",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-include.ecl-acb1bd6ed8caa689eca4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "include/ecl"
+				},
+				{
+					"build" : "include/ecl/geometry",
+					"jsonFile" : "directory-include.ecl.geometry-a8acc0797967ff709d9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "include/ecl/geometry"
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/lib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.lib-26f3cd13ae479f33dcc3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "src/lib",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/test",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-src.test-3607701395add829ebf1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "src/test",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "ecl_geometry",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "ecl_geometry::@dc1a1c76835bc3d8b019",
+					"jsonFile" : "target-ecl_geometry-5032b38cc5fe73d02bf7.json",
+					"name" : "ecl_geometry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ecl_geometry_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ecl_geometry_uninstall-656c49eb524f6b684eff.json",
+					"name" : "ecl_geometry_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_angles::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_angles-a916e632fb899050c512.json",
+					"name" : "ecl_test_angles",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_cartesian_points::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_cartesian_points-5693157aa614be3b0c01.json",
+					"name" : "ecl_test_cartesian_points",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_cubic_splines::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_cubic_splines-24c86c82f371c456be0d.json",
+					"name" : "ecl_test_cubic_splines",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_homogeneous_points::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_homogeneous_points-b12b1f0ec124866cbcf1.json",
+					"name" : "ecl_test_homogeneous_points",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_legacy_pose2d::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_legacy_pose2d-df79ae3a691a961e337f.json",
+					"name" : "ecl_test_legacy_pose2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_legacy_pose3d::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_legacy_pose3d-d93d8396afb1062ea852.json",
+					"name" : "ecl_test_legacy_pose3d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_linear_segment::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_linear_segment-7997ab56f9817ca1f832.json",
+					"name" : "ecl_test_linear_segment",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_odometry_helper::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_odometry_helper-37f8255c2f6aaee9ae8a.json",
+					"name" : "ecl_test_odometry_helper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_polynomials::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_polynomials-1e5233e26b9e64dd3f7f.json",
+					"name" : "ecl_test_polynomials",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_pose2d::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_pose2d-37bcbcdee466848ce031.json",
+					"name" : "ecl_test_pose2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_smooth_linear_splines::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_smooth_linear_splines-5493987733f6d69e9680.json",
+					"name" : "ecl_test_smooth_linear_splines",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_tension_function::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_tension_function-6def9de8541b9c1f1777.json",
+					"name" : "ecl_test_tension_function",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_tension_splines::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_tension_splines-a8ad1a2586b47983fcaf.json",
+					"name" : "ecl_test_tension_splines",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-0a0f519ff6ef9970a302.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-ee533a3afa140accd249.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7056c63792f7d5908039.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/build/ecl_geometry",
+		"source" : "/home/manza/Desktop/hackaton/RobotechVirtualChallenge/src/ThirdParty/ecl/ecl_core/ecl_geometry"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
